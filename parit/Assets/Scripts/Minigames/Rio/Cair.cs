@@ -19,6 +19,5 @@ public class Cair : MonoBehaviour
         {
             Destroy(gameObject);
         }
-            
     }
 }
