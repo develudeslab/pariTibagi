@@ -5,25 +5,32 @@ public class Spawner : MonoBehaviour
 {
     public GameObject[] Prefabs;
     public float TempoSpawn = 0;
-    public Transform Spaw;
+    public Vector2 AreaMin;
+    public Vector2 AreaMax;
+
     void Update()
     {
         TempoSpawn += Time.deltaTime;
-        if(TempoSpawn >= 2f)
+
+        if (TempoSpawn >= 1f)
         {
-            SpawnarCoisos();
+            SpawnarCoiso();
             TempoSpawn = 0;
         }
     }
-
-    public void SpawnarCoisos()
+    
+    public void SpawnarCoiso()
     {
-        for (int i = 0; i < Prefabs.Length; i++)
-        {
-            Instantiate(Prefabs[i],
-            Spaw.position + new Vector3(i * 2, 0, 0),
-            Quaternion.identity);
-        }
+        int Aleatorio = UnityEngine.Random.Range(0, Prefabs.Length);
+        float posX = UnityEngine.Random.Range(AreaMin.x, AreaMax.x);
+        float posY = UnityEngine.Random.Range(AreaMin.y, AreaMax.y);
+        Vector3 posicaoSpawn = new Vector3(posX, posY, 0);
+
+        Instantiate(
+            Prefabs[Aleatorio],
+            posicaoSpawn,
+            Quaternion.identity
+        );
     }
 }
 
