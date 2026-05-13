@@ -3,9 +3,10 @@ using System.Collections.Generic;
 
 public class Cair : MonoBehaviour
 {
-    public float velocidade = 5f;
+    public float velocidade = 1f;
     void Update()
     {
+        velocidade += Time.deltaTime;
         transform.Translate(Vector3.down * velocidade * Time.deltaTime);
     }
     void OnTriggerEnter2D(Collider2D collision)

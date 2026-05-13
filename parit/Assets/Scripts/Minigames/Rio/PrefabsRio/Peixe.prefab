@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecb51a3569ef3ef41b29bdc4b8ee332e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Cair
-  velocidade: 5
+  velocidade: 1
 --- !u!50 &2982105719376698985
 Rigidbody2D:
   serializedVersion: 5
