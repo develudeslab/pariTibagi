@@ -129,6 +129,9 @@ public class SeguidorDeAlvoRigidbody2D : MonoBehaviour
             velocidade * Time.fixedDeltaTime
         );
 
+        Debug.Log(_destino-_rb.position);
+        GetComponent<PlayerAnimation>().Animacao((_destino -  _rb.position).normalized);
+
         // Move o Rigidbody2D para a nova posição calculada.
         _rb.MovePosition(novaPosicao);
     }

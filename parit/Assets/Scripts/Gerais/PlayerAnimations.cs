@@ -24,6 +24,14 @@ public class PlayerAnimation : MonoBehaviour
         isMovingHash = Animator.StringToHash("isMoving");
     }
 
+     public void Animacao(Vector2 moveInput)
+    {
+        // Se estiver se movendo, atualizamos os parâmetros MoveX e MoveY
+        // para que a Blend Tree selecione a animação de direção correta.
+        animator.SetFloat(moveXHash, moveInput.x);
+        animator.SetFloat(moveYHash, moveInput.y);
+    }
+
     private void Update()
     {
         // 1. Lemos o input de movimento diretamente do nosso InputHandler.
@@ -32,10 +40,7 @@ public class PlayerAnimation : MonoBehaviour
         // 2. Verificamos se há algum input de movimento.
         if (moveInput.magnitude > 0.1f) // Se o jogador estiver se movendo
         {
-            // Se estiver se movendo, atualizamos os parâmetros MoveX e MoveY
-            // para que a Blend Tree selecione a animação de direção correta.
-            animator.SetFloat(moveXHash, moveInput.x);
-            animator.SetFloat(moveYHash, moveInput.y);
+
 
             // Definimos o parâmetro booleano no Animator.
             animator.SetBool(isMovingHash, true);
