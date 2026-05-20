@@ -1,55 +1,53 @@
 // PlayerAnimation.cs
 using UnityEngine;
 
-// Garante que o GameObject tenha os componentes necessários.
-[RequireComponent(typeof(Animator), typeof(InputHandler))]
+// Garante que o GameObject tenha os componentes necessï¿½rios.
+[RequireComponent(typeof(Animator))]
 public class PlayerAnimation : MonoBehaviour
 {
     private Animator animator;
-    private InputHandler inputHandler;
 
-    // Hashes para os parâmetros da Blend Tree.
+    // Hashes para os parï¿½metros da Blend Tree.
     private int moveXHash;
     private int moveYHash;
-    private int isMovingHash;
+    private int IsMovingHash;
+
+    // Guarda a ï¿½ltima direï¿½ï¿½o de movimento real para o idle.
+    private Vector2 UltimaDirecao = Vector2.zero;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
-        inputHandler = GetComponent<InputHandler>();
 
-        // Converte as strings dos parâmetros em IDs inteiros (Hashes) para otimização.
+        // Converte as strings dos parï¿½metros em IDs inteiros (Hashes) para otimizaï¿½ï¿½o.
         moveXHash = Animator.StringToHash("MoveX");
         moveYHash = Animator.StringToHash("MoveY");
-        isMovingHash = Animator.StringToHash("isMoving");
+        IsMovingHash = Animator.StringToHash("IsMoving");
+
+        // Inicia a direï¿½ï¿½o com os valores atuais do Animator, se houver.
+        UltimaDirecao = new Vector2(
+            animator.GetFloat(moveXHash),
+            animator.GetFloat(moveYHash)
+        );
     }
 
-     public void Animacao(Vector2 moveInput)
+    public void Animacao(Vector2 moveInput)
     {
-        // Se estiver se movendo, atualizamos os parâmetros MoveX e MoveY
-        // para que a Blend Tree selecione a animação de direção correta.
-        animator.SetFloat(moveXHash, moveInput.x);
-        animator.SetFloat(moveYHash, moveInput.y);
-    }
+        bool estaMovendo = moveInput.sqrMagnitude > 0.01f;
 
-    private void Update()
-    {
-        // 1. Lemos o input de movimento diretamente do nosso InputHandler.
-        Vector2 moveInput = inputHandler.PosicaoInput;
-
-        // 2. Verificamos se há algum input de movimento.
-        if (moveInput.magnitude > 0.1f) // Se o jogador estiver se movendo
+        if (estaMovendo)
         {
-
-
-            // Definimos o parâmetro booleano no Animator.
-            animator.SetBool(isMovingHash, true);
+            UltimaDirecao = moveInput.normalized;
+            animator.SetFloat(moveXHash, UltimaDirecao.x);
+            animator.SetFloat(moveYHash, UltimaDirecao.y);
         }
-        else // Se o jogador NÃO estiver se movendo
+        else
         {
-            animator.SetBool(isMovingHash, false);
-            // Para um "idle" puro, sem movimento de fato, a Blend Tree irá manter
-            // o último sprite de direção se não houver um "walk" para sobrepor.
+            // Mantemos altima direo para o idle.
+            animator.SetFloat(moveXHash, UltimaDirecao.x);
+            animator.SetFloat(moveYHash, UltimaDirecao.y);
         }
+
+        animator.SetBool(IsMovingHash, estaMovendo);
     }
 }
