@@ -8,9 +8,9 @@ public class PegarTaquara : MonoBehaviour
     {
         if(collision.CompareTag("Taquara"))
         {
-            Destroy(collision.gameObject);
+            //Destroy(collision.gameObject);
             taquara++;
-            if(taquara >= 5)
+            if(taquara >= 10)
             {
                 SceneManager.LoadScene("Fase2");
             }
