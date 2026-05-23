@@ -1,46 +1,46 @@
 using UnityEngine;
 
 /// <summary>
-/// Faz o objeto seguir a posição do toque usando Rigidbody2D.
+/// Faz o objeto seguir a posiï¿½ï¿½o do toque usando Rigidbody2D.
 /// 
 /// Como funciona:
-/// - Quando o toque/clique começa, o script passa a acompanhar a posição atual do input.
-/// - Enquanto o toque estiver acontecendo, o destino é atualizado continuamente.
-/// - O movimento é feito no FixedUpdate(), usando o Rigidbody2D,
-///   o que é mais apropriado para objetos que participam da física.
+/// - Quando o toque/clique comeï¿½a, o script passa a acompanhar a posiï¿½ï¿½o atual do input.
+/// - Enquanto o toque estiver acontecendo, o destino ï¿½ atualizado continuamente.
+/// - O movimento ï¿½ feito no FixedUpdate(), usando o Rigidbody2D,
+///   o que ï¿½ mais apropriado para objetos que participam da fï¿½sica.
 /// 
 /// Requisitos para funcionar corretamente:
 /// - O objeto deve ter um Rigidbody2D.
 /// - Deve existir um InputHandler na cena.
-/// - A câmera principal deve estar marcada como MainCamera.
+/// - A cï¿½mera principal deve estar marcada como MainCamera.
 /// </summary>
 [RequireComponent(typeof(Rigidbody2D))]
 public class SeguidorDeAlvoRigidbody2D : MonoBehaviour
 {
-    [Header("Configurações de Movimento")]
+    [Header("Configuraï¿½ï¿½es de Movimento")]
 
     [SerializeField]
-    [Tooltip("Velocidade com que o objeto se move até o destino.")]
+    [Tooltip("Velocidade com que o objeto se move atï¿½ o destino.")]
     private float velocidade = 5f;
 
-    // Referência para a câmera principal da cena.
+    // Referï¿½ncia para a cï¿½mera principal da cena.
     private Camera _cam;
 
-    // Referência para o script que centraliza a leitura do input.
+    // Referï¿½ncia para o script que centraliza a leitura do input.
     private InputHandler _input;
 
-    // Referência para o Rigidbody2D do objeto.
+    // Referï¿½ncia para o Rigidbody2D do objeto.
     private Rigidbody2D _rb;
 
-    // Posição de destino em coordenadas do mundo.
+    // Posiï¿½ï¿½o de destino em coordenadas do mundo.
     private Vector2 _destino;
 
-    // Indica se o jogador está pressionando/tocando a tela neste momento.
+    // Indica se o jogador estï¿½ pressionando/tocando a tela neste momento.
     private bool _pressionando;
 
     /// <summary>
-    /// Awake é chamado antes do jogo começar.
-    /// Aqui pegamos as referências necessárias.
+    /// Awake ï¿½ chamado antes do jogo comeï¿½ar.
+    /// Aqui pegamos as referï¿½ncias necessï¿½rias.
     /// </summary>
     private void Awake()
     {
@@ -48,12 +48,12 @@ public class SeguidorDeAlvoRigidbody2D : MonoBehaviour
         _input = FindFirstObjectByType<InputHandler>();
         _rb = GetComponent<Rigidbody2D>();
 
-        // Começa com o destino na posição inicial do próprio objeto.
+        // Comeï¿½a com o destino na posiï¿½ï¿½o inicial do prï¿½prio objeto.
         _destino = _rb.position;
     }
 
     /// <summary>
-    /// OnEnable é chamado quando o objeto/script é ativado.
+    /// OnEnable ï¿½ chamado quando o objeto/script ï¿½ ativado.
     /// Aqui nos inscrevemos nos eventos do InputHandler.
     /// </summary>
     private void OnEnable()
@@ -63,8 +63,8 @@ public class SeguidorDeAlvoRigidbody2D : MonoBehaviour
     }
 
     /// <summary>
-    /// OnDisable é chamado quando o objeto/script é desativado.
-    /// Aqui removemos a inscrição dos eventos para evitar erros e comportamentos duplicados.
+    /// OnDisable ï¿½ chamado quando o objeto/script ï¿½ desativado.
+    /// Aqui removemos a inscriï¿½ï¿½o dos eventos para evitar erros e comportamentos duplicados.
     /// </summary>
     private void OnDisable()
     {
@@ -73,7 +73,7 @@ public class SeguidorDeAlvoRigidbody2D : MonoBehaviour
     }
 
     /// <summary>
-    /// Método chamado quando o toque/clique começa.
+    /// Mï¿½todo chamado quando o toque/clique comeï¿½a.
     /// </summary>
     private void AoIniciarContato()
     {
@@ -81,7 +81,7 @@ public class SeguidorDeAlvoRigidbody2D : MonoBehaviour
     }
 
     /// <summary>
-    /// Método chamado quando o toque/clique termina.
+    /// Mï¿½todo chamado quando o toque/clique termina.
     /// </summary>
     private void AoFinalizarContato()
     {
@@ -91,19 +91,19 @@ public class SeguidorDeAlvoRigidbody2D : MonoBehaviour
     /// <summary>
     /// Update roda a cada frame.
     /// 
-    /// Aqui usamos apenas para ler a posição atual do input
+    /// Aqui usamos apenas para ler a posiï¿½ï¿½o atual do input
     /// e atualizar o ponto de destino.
     /// </summary>
     private void Update()
     {
-        // Só atualiza o destino se o jogador estiver pressionando
+        // Sï¿½ atualiza o destino se o jogador estiver pressionando
         // e se o InputHandler existir.
         if (_pressionando && _input != null && _cam != null)
         {
-            // Posição do toque/clique na tela (pixels).
+            // Posiï¿½ï¿½o do toque/clique na tela (pixels).
             Vector2 posicaoTela = _input.PosicaoInput;
 
-            // Converte a posição da tela para coordenadas do mundo.
+            // Converte a posiï¿½ï¿½o da tela para coordenadas do mundo.
             Vector3 posicaoMundo = _cam.ScreenToWorldPoint(
                 new Vector3(posicaoTela.x, posicaoTela.y, 0f)
             );
@@ -116,23 +116,23 @@ public class SeguidorDeAlvoRigidbody2D : MonoBehaviour
     /// <summary>
     /// FixedUpdate roda em intervalos fixos de tempo.
     /// 
-    /// É o lugar ideal para movimentação com Rigidbody2D,
-    /// pois mantém melhor compatibilidade com a física.
+    /// ï¿½ o lugar ideal para movimentaï¿½ï¿½o com Rigidbody2D,
+    /// pois mantï¿½m melhor compatibilidade com a fï¿½sica.
     /// </summary>
     private void FixedUpdate()
     {
-        // Move o objeto gradualmente até o destino.
-        // MoveTowards anda em direção ao alvo com velocidade constante.
+        // Move o objeto gradualmente atï¿½ o destino.
+        // MoveTowards anda em direï¿½ï¿½o ao alvo com velocidade constante.
         Vector2 novaPosicao = Vector2.MoveTowards(
-            _rb.position,                  // posição atual
-            _destino,                     // posição alvo
+            _rb.position,                  // posiï¿½ï¿½o atual
+            _destino,                     // posiï¿½ï¿½o alvo
             velocidade * Time.fixedDeltaTime
         );
 
-        Debug.Log(_destino-_rb.position);
+        //Debug.Log(_destino-_rb.position);
         GetComponent<PlayerAnimation>().Animacao((_destino -  _rb.position).normalized);
 
-        // Move o Rigidbody2D para a nova posição calculada.
+        // Move o Rigidbody2D para a nova posiï¿½ï¿½o calculada.
         _rb.MovePosition(novaPosicao);
     }
 }

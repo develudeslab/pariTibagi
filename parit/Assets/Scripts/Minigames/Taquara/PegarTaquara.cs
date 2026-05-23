@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class PegarTaquara : MonoBehaviour
@@ -8,12 +9,19 @@ public class PegarTaquara : MonoBehaviour
     {
         if(collision.CompareTag("Taquara"))
         {
-            //Destroy(collision.gameObject);
             taquara++;
+            Debug.Log(taquara);
+            StartCoroutine(esperar(collision.gameObject));
             if(taquara >= 10)
             {
-                SceneManager.LoadScene("Fase2");
+                SceneManager.LoadScene("MontarPari");
             }
         }
+    }
+
+    IEnumerator esperar(GameObject obj)
+    {
+        yield return new WaitForSeconds(2f);
+        Destroy(obj);
     }
 }

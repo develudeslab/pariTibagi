@@ -1254,6 +1254,8 @@ GameObject:
   m_Component:
   - component: {fileID: 277343655}
   - component: {fileID: 277343656}
+  - component: {fileID: 277343658}
+  - component: {fileID: 277343657}
   m_Layer: 0
   m_Name: Geranciador
   m_TagString: Untagged
@@ -1293,6 +1295,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Painel2
   painel: {fileID: 1221557279}
+--- !u!114 &277343657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277343654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 599ebb9611e0801478a29a5ea9886ecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SistemaDialogo
+  dialogueData: {fileID: 11400000, guid: be49b749b6aac82469d35e8aab5456f5, type: 2}
+--- !u!114 &277343658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277343654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11cb605326c33e247927213200d67c7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimacaoTexto
+  typeDelay: 0.05
+  textObject: {fileID: 1805451943}
+  fullText: 
 --- !u!1 &297810961
 GameObject:
   m_ObjectHideFlags: 0
@@ -4539,8 +4569,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Proteja o pari e colete os peixes, ent\xE3o decida comer o peixe para
-    saciar sua fome ou guardar para sua comunidade"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4749,7 +4778,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
