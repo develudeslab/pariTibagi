@@ -5,12 +5,16 @@ using UnityEngine.SceneManagement;
 public class PegarTaquara : MonoBehaviour
 {
     public int taquara;
+    public AudioSource corte;
+    public AudioSource taquas;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Taquara"))
         {
             taquara++;
-            Debug.Log(taquara);
+            corte.Play();
+            taquas.Play();
             StartCoroutine(esperar(collision.gameObject));
             if(taquara >= 10)
             {

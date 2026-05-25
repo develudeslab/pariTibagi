@@ -4,7 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class Parimontado : MonoBehaviour
 {
-   void Start()
+    
+    void Start()
     {
         StartCoroutine(esperar());
     }

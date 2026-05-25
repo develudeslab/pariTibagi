@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class Painel2 : MonoBehaviour
 {
     public GameObject painel;
+    public AudioSource UI;
     void Start()
     {
         GetComponentInChildren<SeguidorDeAlvoRigidbody2D>().enabled = false;
@@ -19,5 +20,6 @@ public class Painel2 : MonoBehaviour
         GetComponentInChildren<Spawner>().enabled = true;
         GetComponentInChildren<MovimentoRio>().enabled = true;
         painel.SetActive(false);
+        UI.Play();
     }
 }

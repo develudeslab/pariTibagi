@@ -7,6 +7,8 @@ public class Spawner : MonoBehaviour
     public float TempoSpawn = 0;
     public Vector2 AreaMin;
     public Vector2 AreaMax;
+    public AudioSource peixe;
+    public AudioSource pedaco;
 
     void Update()
     {
@@ -25,7 +27,15 @@ public class Spawner : MonoBehaviour
         float posX = UnityEngine.Random.Range(AreaMin.x, AreaMax.x);
         float posY = UnityEngine.Random.Range(AreaMin.y, AreaMax.y);
         Vector3 posicaoSpawn = new Vector3(posX, posY, 0);
-
+        
+        if(Aleatorio == 0)
+        {
+            pedaco.Play();
+        }
+        if (Aleatorio == 1)
+        {
+            peixe.Play();
+        }
         Instantiate(
             Prefabs[Aleatorio],
             posicaoSpawn,
