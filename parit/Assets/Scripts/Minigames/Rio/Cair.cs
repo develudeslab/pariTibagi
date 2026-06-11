@@ -4,6 +4,7 @@ using System.Collections.Generic;
 public class Cair : MonoBehaviour
 {
     public float velocidade = 1f;
+    private int Chance;
     void Update()
     {
         velocidade += Time.deltaTime;
@@ -21,7 +22,15 @@ public class Cair : MonoBehaviour
         }
          if(collision.CompareTag("Player"))
         {
-            Destroy(gameObject);
+            Chance = Random.Range(1, 10);
+            if (Chance >= 5)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                Debug.Log("O peixe desviou, otario");
+            }
         }
     }
 }
