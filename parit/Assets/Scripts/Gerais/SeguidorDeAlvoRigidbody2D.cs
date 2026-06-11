@@ -135,4 +135,20 @@ public class SeguidorDeAlvoRigidbody2D : MonoBehaviour
         // Move o Rigidbody2D para a nova posi��o calculada.
         _rb.MovePosition(novaPosicao);
     }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Rio"))
+        {
+            velocidade = 3;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Rio"))
+        {
+            velocidade = 7;
+        }
+    }
 }
