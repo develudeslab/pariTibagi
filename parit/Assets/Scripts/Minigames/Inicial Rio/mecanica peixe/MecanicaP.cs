@@ -8,37 +8,33 @@ public class MecanicaP : MonoBehaviour
     public float velocidade = 2f;
 
     private Transform destino;
+    private bool Movendo;
 
     void Start()
     {
-        destino = origem;
+        destino = local;
     }
 
     void Update()
     {
-
+        if (Movendo)
+            Mover();
     }
 
     public void Pegar()
     {
-            transform.position = Vector3.MoveTowards(transform.position, destino.position, velocidade * Time.deltaTime);
-
-            if (Vector3.Distance(transform.position, destino.position) < 0.01f)
-            {
-                if (destino == local)
-                {
-                    StartCoroutine(Esperar());
-                    destino = origem;
-                }
-                else
-                {
-                    destino = local;
-                }
-            }
+        destino = local;
+        Movendo = true;
     }
-    IEnumerator Esperar()
+
+    private void Mover()
     {
-        yield return new WaitForSeconds(3f);
-        Debug.Log("ta esperando");
+        transform.position = Vector3.MoveTowards(transform.position, destino.position, velocidade * Time.unscaledDeltaTime);
+
+        if (Vector3.Distance(transform.position, destino.position) < 0.01f)
+        {
+            transform.position = destino.position;
+            Movendo = false;
+        }
     }
 }

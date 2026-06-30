@@ -6,6 +6,6 @@ public class Peixe : MonoBehaviour
     void Update()
     {
         velocidade += Time.deltaTime;
-        transform.Translate(Vector3.down * velocidade * Time.deltaTime);
+        transform.Translate(Vector3.down * velocidade * Time.unscaledDeltaTime);
     }
 }

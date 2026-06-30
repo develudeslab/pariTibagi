@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1567376305595395879}
   - component: {fileID: 4252488630828176403}
-  - component: {fileID: 2140114708399373307}
   - component: {fileID: 2982105719376698985}
   - component: {fileID: 1340672500680233794}
   - component: {fileID: 9188523149473544070}
+  - component: {fileID: -90432359063037011}
   m_Layer: 6
-  m_Name: Peixe
+  m_Name: Peixe inicial
   m_TagString: Peixe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,20 +95,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &2140114708399373307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6034716250492223755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecb51a3569ef3ef41b29bdc4b8ee332e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Cair
-  velocidade: 3
-  TempoVida: 4
 --- !u!50 &2982105719376698985
 Rigidbody2D:
   serializedVersion: 5
@@ -284,3 +270,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-90432359063037011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6034716250492223755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3e50c80891c3d4b9eb0a47fedc2aa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Peixe
+  velocidade: 3
