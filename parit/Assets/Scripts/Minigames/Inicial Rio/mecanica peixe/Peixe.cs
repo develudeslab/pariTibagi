@@ -8,4 +8,14 @@ public class Peixe : MonoBehaviour
         velocidade += Time.deltaTime;
         transform.Translate(Vector3.down * velocidade * Time.unscaledDeltaTime);
     }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            Destroy(this);
+            Debug.Log("Colidiu com a area");
+        }
+    }
+
 }

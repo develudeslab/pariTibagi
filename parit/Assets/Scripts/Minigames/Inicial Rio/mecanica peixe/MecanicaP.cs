@@ -7,12 +7,15 @@ public class MecanicaP : MonoBehaviour
     public Transform origem;
     public float velocidade = 2f;
 
+    public GameObject AreaPegar;
+
     private Transform destino;
     private bool Movendo;
 
     void Start()
     {
         destino = local;
+        AreaPegar.SetActive(false);
     }
 
     void Update()
@@ -25,16 +28,22 @@ public class MecanicaP : MonoBehaviour
     {
         destino = local;
         Movendo = true;
+        if (Vector3.Distance(transform.position, destino.position) < 0.01f)
+        {
+            AreaPegar.SetActive(true);
+            StartCoroutine(esperar());
+            destino = origem;
+        }
+
     }
 
     private void Mover()
     {
         transform.position = Vector3.MoveTowards(transform.position, destino.position, velocidade * Time.unscaledDeltaTime);
+    }
 
-        if (Vector3.Distance(transform.position, destino.position) < 0.01f)
-        {
-            transform.position = destino.position;
-            Movendo = false;
-        }
+    IEnumerator esperar()
+    {
+        yield return new WaitForSeconds(2f);
     }
 }
