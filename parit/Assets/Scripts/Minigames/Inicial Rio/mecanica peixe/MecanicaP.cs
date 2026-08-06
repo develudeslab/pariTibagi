@@ -1,21 +1,18 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.InputSystem;
 
 public class MecanicaP : MonoBehaviour
 {
     public Transform local;
     public Transform origem;
     public float velocidade = 2f;
-
-    public GameObject AreaPegar;
-
     private Transform destino;
     private bool Movendo;
 
     void Start()
     {
         destino = local;
-        AreaPegar.SetActive(false);
     }
 
     void Update()
@@ -30,11 +27,15 @@ public class MecanicaP : MonoBehaviour
         Movendo = true;
         if (Vector3.Distance(transform.position, destino.position) < 0.01f)
         {
-            AreaPegar.SetActive(true);
             StartCoroutine(esperar());
             destino = origem;
         }
+    }
 
+    public void OnContatoPrimario()
+    {
+        Pegar();
+        Mover();
     }
 
     private void Mover()
