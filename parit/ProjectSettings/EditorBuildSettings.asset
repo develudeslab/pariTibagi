@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Fase2.unity
     guid: dd0dbacd0fb755f46b1c9555719e3c46
   - enabled: 1
+    path: Assets/Scenes/Fase 1 Rio.unity
+    guid: 42b73eb79264485478130b63aff324bc
+  - enabled: 0
     path: Assets/Scenes/Fase1.unity
     guid: 4d890c86105ef8c4c842287cc756e342
   - enabled: 0

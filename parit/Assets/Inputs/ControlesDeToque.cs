@@ -137,74 +137,30 @@ public partial class @ControlesDeToque: IInputActionCollection2, IDisposable
             ]
         },
         {
-            ""name"": ""JoyStick"",
-            ""id"": ""864cd3e6-f4ac-499d-af75-5273e840ee77"",
+            ""name"": ""Interajir"",
+            ""id"": ""63db8696-b2cf-44f8-a113-11c0f82c6082"",
             ""actions"": [
                 {
-                    ""name"": ""Andar"",
-                    ""type"": ""Value"",
-                    ""id"": ""19776f5b-f7fb-49b0-a2d2-c8358b0b12d1"",
-                    ""expectedControlType"": ""Vector2"",
+                    ""name"": ""Clique"",
+                    ""type"": ""Button"",
+                    ""id"": ""0546738f-c3ea-4242-9f5c-b27d0f854105"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
-                    ""initialStateCheck"": true
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
                 {
-                    ""name"": ""2D Vector"",
-                    ""id"": ""9e02c1eb-82b2-4776-a132-44c681da3f2f"",
-                    ""path"": ""2DVector"",
+                    ""name"": """",
+                    ""id"": ""62854414-3f3d-45e4-8834-521f003550db"",
+                    ""path"": ""<Pointer>/press"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Andar"",
-                    ""isComposite"": true,
+                    ""action"": ""Clique"",
+                    ""isComposite"": false,
                     ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""c8222af1-88e2-4bb0-9529-e8ad88842a68"",
-                    ""path"": ""<Joystick>/stick/up"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Andar"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""d8da8a43-b1cc-48d1-aca5-a3ba2de5e924"",
-                    ""path"": ""<Joystick>/stick/down"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Andar"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""af9ef010-77bf-48b7-aa3e-8eb920aca7d7"",
-                    ""path"": ""<Joystick>/stick/left"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Andar"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""5da3a497-bede-4273-a96f-c98d36fd3b3c"",
-                    ""path"": ""<Joystick>/stick/right"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Andar"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
                 }
             ]
         }
@@ -215,15 +171,15 @@ public partial class @ControlesDeToque: IInputActionCollection2, IDisposable
         m_Toque = asset.FindActionMap("Toque", throwIfNotFound: true);
         m_Toque_ContatoPrimario = m_Toque.FindAction("ContatoPrimario", throwIfNotFound: true);
         m_Toque_PosicaoPrimaria = m_Toque.FindAction("PosicaoPrimaria", throwIfNotFound: true);
-        // JoyStick
-        m_JoyStick = asset.FindActionMap("JoyStick", throwIfNotFound: true);
-        m_JoyStick_Andar = m_JoyStick.FindAction("Andar", throwIfNotFound: true);
+        // Interajir
+        m_Interajir = asset.FindActionMap("Interajir", throwIfNotFound: true);
+        m_Interajir_Clique = m_Interajir.FindAction("Clique", throwIfNotFound: true);
     }
 
     ~@ControlesDeToque()
     {
         UnityEngine.Debug.Assert(!m_Toque.enabled, "This will cause a leak and performance issues, ControlesDeToque.Toque.Disable() has not been called.");
-        UnityEngine.Debug.Assert(!m_JoyStick.enabled, "This will cause a leak and performance issues, ControlesDeToque.JoyStick.Disable() has not been called.");
+        UnityEngine.Debug.Assert(!m_Interajir.enabled, "This will cause a leak and performance issues, ControlesDeToque.Interajir.Disable() has not been called.");
     }
 
     /// <summary>
@@ -403,29 +359,29 @@ public partial class @ControlesDeToque: IInputActionCollection2, IDisposable
     /// </summary>
     public ToqueActions @Toque => new ToqueActions(this);
 
-    // JoyStick
-    private readonly InputActionMap m_JoyStick;
-    private List<IJoyStickActions> m_JoyStickActionsCallbackInterfaces = new List<IJoyStickActions>();
-    private readonly InputAction m_JoyStick_Andar;
+    // Interajir
+    private readonly InputActionMap m_Interajir;
+    private List<IInterajirActions> m_InterajirActionsCallbackInterfaces = new List<IInterajirActions>();
+    private readonly InputAction m_Interajir_Clique;
     /// <summary>
-    /// Provides access to input actions defined in input action map "JoyStick".
+    /// Provides access to input actions defined in input action map "Interajir".
     /// </summary>
-    public struct JoyStickActions
+    public struct InterajirActions
     {
         private @ControlesDeToque m_Wrapper;
 
         /// <summary>
         /// Construct a new instance of the input action map wrapper class.
         /// </summary>
-        public JoyStickActions(@ControlesDeToque wrapper) { m_Wrapper = wrapper; }
+        public InterajirActions(@ControlesDeToque wrapper) { m_Wrapper = wrapper; }
         /// <summary>
-        /// Provides access to the underlying input action "JoyStick/Andar".
+        /// Provides access to the underlying input action "Interajir/Clique".
         /// </summary>
-        public InputAction @Andar => m_Wrapper.m_JoyStick_Andar;
+        public InputAction @Clique => m_Wrapper.m_Interajir_Clique;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
-        public InputActionMap Get() { return m_Wrapper.m_JoyStick; }
+        public InputActionMap Get() { return m_Wrapper.m_Interajir; }
         /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
         public void Enable() { Get().Enable(); }
         /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
@@ -433,9 +389,9 @@ public partial class @ControlesDeToque: IInputActionCollection2, IDisposable
         /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
         public bool enabled => Get().enabled;
         /// <summary>
-        /// Implicitly converts an <see ref="JoyStickActions" /> to an <see ref="InputActionMap" /> instance.
+        /// Implicitly converts an <see ref="InterajirActions" /> to an <see ref="InputActionMap" /> instance.
         /// </summary>
-        public static implicit operator InputActionMap(JoyStickActions set) { return set.Get(); }
+        public static implicit operator InputActionMap(InterajirActions set) { return set.Get(); }
         /// <summary>
         /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
         /// </summary>
@@ -443,14 +399,14 @@ public partial class @ControlesDeToque: IInputActionCollection2, IDisposable
         /// <remarks>
         /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
         /// </remarks>
-        /// <seealso cref="JoyStickActions" />
-        public void AddCallbacks(IJoyStickActions instance)
+        /// <seealso cref="InterajirActions" />
+        public void AddCallbacks(IInterajirActions instance)
         {
-            if (instance == null || m_Wrapper.m_JoyStickActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_JoyStickActionsCallbackInterfaces.Add(instance);
-            @Andar.started += instance.OnAndar;
-            @Andar.performed += instance.OnAndar;
-            @Andar.canceled += instance.OnAndar;
+            if (instance == null || m_Wrapper.m_InterajirActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_InterajirActionsCallbackInterfaces.Add(instance);
+            @Clique.started += instance.OnClique;
+            @Clique.performed += instance.OnClique;
+            @Clique.canceled += instance.OnClique;
         }
 
         /// <summary>
@@ -459,21 +415,21 @@ public partial class @ControlesDeToque: IInputActionCollection2, IDisposable
         /// <remarks>
         /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
         /// </remarks>
-        /// <seealso cref="JoyStickActions" />
-        private void UnregisterCallbacks(IJoyStickActions instance)
+        /// <seealso cref="InterajirActions" />
+        private void UnregisterCallbacks(IInterajirActions instance)
         {
-            @Andar.started -= instance.OnAndar;
-            @Andar.performed -= instance.OnAndar;
-            @Andar.canceled -= instance.OnAndar;
+            @Clique.started -= instance.OnClique;
+            @Clique.performed -= instance.OnClique;
+            @Clique.canceled -= instance.OnClique;
         }
 
         /// <summary>
-        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="JoyStickActions.UnregisterCallbacks(IJoyStickActions)" />.
+        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="InterajirActions.UnregisterCallbacks(IInterajirActions)" />.
         /// </summary>
-        /// <seealso cref="JoyStickActions.UnregisterCallbacks(IJoyStickActions)" />
-        public void RemoveCallbacks(IJoyStickActions instance)
+        /// <seealso cref="InterajirActions.UnregisterCallbacks(IInterajirActions)" />
+        public void RemoveCallbacks(IInterajirActions instance)
         {
-            if (m_Wrapper.m_JoyStickActionsCallbackInterfaces.Remove(instance))
+            if (m_Wrapper.m_InterajirActionsCallbackInterfaces.Remove(instance))
                 UnregisterCallbacks(instance);
         }
 
@@ -483,21 +439,21 @@ public partial class @ControlesDeToque: IInputActionCollection2, IDisposable
         /// <remarks>
         /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
         /// </remarks>
-        /// <seealso cref="JoyStickActions.AddCallbacks(IJoyStickActions)" />
-        /// <seealso cref="JoyStickActions.RemoveCallbacks(IJoyStickActions)" />
-        /// <seealso cref="JoyStickActions.UnregisterCallbacks(IJoyStickActions)" />
-        public void SetCallbacks(IJoyStickActions instance)
+        /// <seealso cref="InterajirActions.AddCallbacks(IInterajirActions)" />
+        /// <seealso cref="InterajirActions.RemoveCallbacks(IInterajirActions)" />
+        /// <seealso cref="InterajirActions.UnregisterCallbacks(IInterajirActions)" />
+        public void SetCallbacks(IInterajirActions instance)
         {
-            foreach (var item in m_Wrapper.m_JoyStickActionsCallbackInterfaces)
+            foreach (var item in m_Wrapper.m_InterajirActionsCallbackInterfaces)
                 UnregisterCallbacks(item);
-            m_Wrapper.m_JoyStickActionsCallbackInterfaces.Clear();
+            m_Wrapper.m_InterajirActionsCallbackInterfaces.Clear();
             AddCallbacks(instance);
         }
     }
     /// <summary>
-    /// Provides a new <see cref="JoyStickActions" /> instance referencing this action map.
+    /// Provides a new <see cref="InterajirActions" /> instance referencing this action map.
     /// </summary>
-    public JoyStickActions @JoyStick => new JoyStickActions(this);
+    public InterajirActions @Interajir => new InterajirActions(this);
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Toque" which allows adding and removing callbacks.
     /// </summary>
@@ -521,18 +477,18 @@ public partial class @ControlesDeToque: IInputActionCollection2, IDisposable
         void OnPosicaoPrimaria(InputAction.CallbackContext context);
     }
     /// <summary>
-    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "JoyStick" which allows adding and removing callbacks.
+    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Interajir" which allows adding and removing callbacks.
     /// </summary>
-    /// <seealso cref="JoyStickActions.AddCallbacks(IJoyStickActions)" />
-    /// <seealso cref="JoyStickActions.RemoveCallbacks(IJoyStickActions)" />
-    public interface IJoyStickActions
+    /// <seealso cref="InterajirActions.AddCallbacks(IInterajirActions)" />
+    /// <seealso cref="InterajirActions.RemoveCallbacks(IInterajirActions)" />
+    public interface IInterajirActions
     {
         /// <summary>
-        /// Method invoked when associated input action "Andar" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Clique" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnAndar(InputAction.CallbackContext context);
+        void OnClique(InputAction.CallbackContext context);
     }
 }

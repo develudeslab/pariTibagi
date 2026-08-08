@@ -11,9 +11,9 @@ public class Peixe : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Mao"))
         {
-            Destroy(this);
+            Destroy(gameObject);
             Debug.Log("Colidiu com a area");
         }
     }

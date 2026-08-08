@@ -3,7 +3,10 @@ using UnityEngine;
 public class Ativar : MonoBehaviour
 {
    public GameObject Minigame;
+   public GameObject Player;
    private int chance;
+
+
     void Start()
     {
         Minigame.SetActive(false);  
@@ -19,6 +22,7 @@ public class Ativar : MonoBehaviour
                 Destroy(other.gameObject);
                 Time.timeScale = 0;
                 Minigame.SetActive(true);
+                Player.SetActive(false);
             }
         }
          

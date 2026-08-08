@@ -6,8 +6,8 @@ public class MecanicaP : MonoBehaviour
 {
     public Transform local;
     public Transform origem;
-    public float velocidade = 2f;
     private Transform destino;
+    public float velocidade = 2f;
     private bool Movendo;
 
     void Start()
@@ -17,6 +17,23 @@ public class MecanicaP : MonoBehaviour
 
     void Update()
     {
+        bool clicou = false;
+
+        if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
+        {
+            clicou = true;
+        }
+
+        if (!clicou && Touchscreen.current != null && Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
+        {
+            clicou = true;
+        }
+
+        if (clicou)
+        {
+            Pegar();
+        }
+
         if (Movendo)
             Mover();
     }
@@ -30,12 +47,6 @@ public class MecanicaP : MonoBehaviour
             StartCoroutine(esperar());
             destino = origem;
         }
-    }
-
-    public void OnContatoPrimario()
-    {
-        Pegar();
-        Mover();
     }
 
     private void Mover()
