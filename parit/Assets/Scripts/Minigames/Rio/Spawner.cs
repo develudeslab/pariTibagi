@@ -13,7 +13,7 @@ public class Spawner : MonoBehaviour
     {
         TempoSpawn += Time.deltaTime;
 
-        if (TempoSpawn >= 1f)
+        if (TempoSpawn >= 1.5f)
         {
             SpawnarCoiso();
             TempoSpawn = 0;

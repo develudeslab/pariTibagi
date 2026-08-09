@@ -11,6 +11,7 @@ TagManager:
   - Taquara
   - Rio
   - area
+  - Mao
   layers:
   - Default
   - TransparentFX

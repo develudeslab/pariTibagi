@@ -1176,8 +1176,10 @@ UnityEngine.Physics::Internal_RaycastAll_Injected
 UnityEngine.Physics::SendOnCollisionEnter_Injected
 UnityEngine.Physics::SendOnCollisionExit_Injected
 UnityEngine.Physics::SendOnCollisionStay_Injected
+UnityEngine.Physics2D::Simulate_Internal_Injected
 UnityEngine.Physics2D::get_queriesHitTriggers
 UnityEngine.Physics2D::GetRayIntersectionAll_Internal_Injected
+UnityEngine.Physics2D::set_simulationMode
 UnityEngine.PhysicsScene::Internal_RaycastTest_Injected
 UnityEngine.PhysicsScene::Internal_Raycast_Injected
 UnityEngine.PhysicsScene::Internal_RaycastNonAlloc_Injected

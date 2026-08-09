@@ -3,19 +3,54 @@ using UnityEngine;
 public class Peixe : MonoBehaviour
 {
     public float velocidade = 1;
-    void Update()
+    public float limiteY = -5f;
+    public static int peixes;
+    public GameObject Minigame;
+    public GameObject Player;
+    public Transform OrigemPeixe;
+
+    void Start()
     {
-        velocidade += Time.deltaTime;
-        transform.Translate(Vector3.down * velocidade * Time.unscaledDeltaTime);
+        ResetPeixe();
     }
 
-    public void OnTriggerEnter2D(Collider2D collision)
+    private void OnEnable()
     {
-        if (collision.CompareTag("Mao"))
+        ResetPeixe();
+    }
+
+    void Update()
+    {
+        velocidade += Time.unscaledDeltaTime;
+        transform.Translate(Vector3.down * velocidade * Time.unscaledDeltaTime);
+
+        if (transform.position.y <= limiteY)
         {
-            Destroy(gameObject);
-            Debug.Log("Colidiu com a area");
+            Time.timeScale = 1;
+            Minigame.SetActive(false);
+            Player.SetActive(true);
+            ResetPeixe();
         }
     }
 
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Mao"))
+        {
+            Time.timeScale = 1;
+            peixes++;
+            Minigame.SetActive(false);
+            Player.SetActive(true);
+            ResetPeixe();
+        }
+    }
+
+    public void ResetPeixe()
+    {
+        if (OrigemPeixe == null)
+            return;
+
+        transform.position = OrigemPeixe.position;
+        velocidade = 1f;
+    }
 }

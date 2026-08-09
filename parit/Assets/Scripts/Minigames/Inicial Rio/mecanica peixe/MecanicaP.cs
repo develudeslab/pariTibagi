@@ -12,7 +12,12 @@ public class MecanicaP : MonoBehaviour
 
     void Start()
     {
-        destino = local;
+        ResetHand();
+    }
+
+    private void OnEnable()
+    {
+        ResetHand();
     }
 
     void Update()
@@ -40,8 +45,12 @@ public class MecanicaP : MonoBehaviour
 
     public void Pegar()
     {
+        if (origem == null || local == null)
+            return;
+
         destino = local;
         Movendo = true;
+
         if (Vector3.Distance(transform.position, destino.position) < 0.01f)
         {
             StartCoroutine(esperar());
@@ -52,6 +61,21 @@ public class MecanicaP : MonoBehaviour
     private void Mover()
     {
         transform.position = Vector3.MoveTowards(transform.position, destino.position, velocidade * Time.unscaledDeltaTime);
+
+        if (Vector3.Distance(transform.position, destino.position) < 0.01f)
+        {
+            Movendo = false;
+        }
+    }
+
+    private void ResetHand()
+    {
+        if (origem == null)
+            return;
+
+        transform.position = origem.position;
+        destino = origem;
+        Movendo = false;
     }
 
     IEnumerator esperar()

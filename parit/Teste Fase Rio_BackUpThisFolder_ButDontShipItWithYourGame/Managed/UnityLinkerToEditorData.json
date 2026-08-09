@@ -17,7 +17,10 @@
           {
             "name": "AnimationClip",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/MontarPari.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -25,7 +28,10 @@
           {
             "name": "Animator",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/MontarPari.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -33,7 +39,10 @@
           {
             "name": "AnimatorController",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/MontarPari.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -93,7 +102,14 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/Fase3.unity",
+              "Assets/Scenes/GameOver.unity",
+              "Assets/Scenes/MontarPari.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -101,7 +117,11 @@
           {
             "name": "AudioClip",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/MontarPari.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -109,7 +129,14 @@
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/Fase3.unity",
+              "Assets/Scenes/GameOver.unity",
+              "Assets/Scenes/MontarPari.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -123,7 +150,11 @@
           {
             "name": "AudioResource",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/MontarPari.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -131,7 +162,11 @@
           {
             "name": "AudioSource",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/MontarPari.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -168,7 +203,14 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/Fase3.unity",
+              "Assets/Scenes/GameOver.unity",
+              "Assets/Scenes/MontarPari.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -188,7 +230,13 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/Fase3.unity",
+              "Assets/Scenes/GameOver.unity",
+              "Assets/Scenes/MontarPari.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -208,7 +256,14 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/Fase3.unity",
+              "Assets/Scenes/GameOver.unity",
+              "Assets/Scenes/MontarPari.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -222,7 +277,14 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/Fase3.unity",
+              "Assets/Scenes/GameOver.unity",
+              "Assets/Scenes/MontarPari.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -254,7 +316,14 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/Fase3.unity",
+              "Assets/Scenes/GameOver.unity",
+              "Assets/Scenes/MontarPari.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -286,7 +355,14 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/Fase3.unity",
+              "Assets/Scenes/GameOver.unity",
+              "Assets/Scenes/MontarPari.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -300,7 +376,14 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/Fase3.unity",
+              "Assets/Scenes/GameOver.unity",
+              "Assets/Scenes/MontarPari.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -326,7 +409,14 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/Fase3.unity",
+              "Assets/Scenes/GameOver.unity",
+              "Assets/Scenes/MontarPari.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -340,7 +430,14 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/Fase3.unity",
+              "Assets/Scenes/GameOver.unity",
+              "Assets/Scenes/MontarPari.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -348,7 +445,14 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/Fase3.unity",
+              "Assets/Scenes/GameOver.unity",
+              "Assets/Scenes/MontarPari.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -386,7 +490,12 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/GameOver.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -400,7 +509,14 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/Fase3.unity",
+              "Assets/Scenes/GameOver.unity",
+              "Assets/Scenes/MontarPari.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -414,7 +530,11 @@
           {
             "name": "Renderer",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/Fase3.unity",
+              "Assets/Scenes/MontarPari.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -434,7 +554,14 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/Fase3.unity",
+              "Assets/Scenes/GameOver.unity",
+              "Assets/Scenes/MontarPari.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -460,7 +587,14 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/Fase3.unity",
+              "Assets/Scenes/GameOver.unity",
+              "Assets/Scenes/MontarPari.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -468,7 +602,10 @@
           {
             "name": "SpriteAtlas",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/MontarPari.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -476,7 +613,11 @@
           {
             "name": "SpriteRenderer",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/Fase3.unity",
+              "Assets/Scenes/MontarPari.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -834,7 +975,10 @@
           {
             "name": "Grid",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/MontarPari.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1140,7 +1284,9 @@
           {
             "name": "BoxCollider2D",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1148,7 +1294,9 @@
           {
             "name": "CapsuleCollider2D",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1180,7 +1328,8 @@
           {
             "name": "PolygonCollider2D",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase2.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1188,7 +1337,9 @@
           {
             "name": "Rigidbody2D",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1631,7 +1782,12 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/GameOver.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1674,7 +1830,19 @@
           {
             "name": "Tilemap",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/MontarPari.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "TilemapCollider2D",
+            "scenes": [
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1682,7 +1850,10 @@
           {
             "name": "TilemapRenderer",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/MontarPari.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1701,7 +1872,12 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/GameOver.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1715,7 +1891,12 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Scenes/Fase 1 Rio.unity"
+              "Assets/Scenes/Fase 1 Rio.unity",
+              "Assets/Scenes/Fase1.unity",
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/GameOver.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TelaInical.unity"
             ],
             "dependencyType": 0,
             "icon": null
