@@ -3300,7 +3300,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Colete 6 peixes do rio
+  m_text: 'Colete 4 peixes do rio
 
 '
   m_isRightToLeft: 0
