@@ -1271,7 +1271,8 @@
             "scenes": [
               "Assets/Scenes/Fase 1 Rio.unity",
               "Assets/Scenes/Fase1.unity",
-              "Assets/Scenes/Fase2.unity"
+              "Assets/Scenes/Fase2.unity",
+              "Assets/Scenes/MontarPari.unity"
             ],
             "dependencyType": 0,
             "icon": null
