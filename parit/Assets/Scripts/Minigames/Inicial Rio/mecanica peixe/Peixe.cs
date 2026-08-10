@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Peixe : MonoBehaviour
 {
-    public float velocidade = 1;
+    public float velocidade = 5;
     public float limiteY = -5f;
     public static int peixes;
     public GameObject Minigame;
@@ -51,6 +51,6 @@ public class Peixe : MonoBehaviour
             return;
 
         transform.position = OrigemPeixe.position;
-        velocidade = 1f;
+        velocidade = 5f;
     }
 }

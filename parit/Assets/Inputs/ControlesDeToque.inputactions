@@ -13,7 +13,8 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": false,
+                    "priority": 0
                 },
                 {
                     "name": "PosicaoPrimaria",
@@ -22,7 +23,8 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": true,
+                    "priority": 0
                 }
             ],
             "bindings": [
@@ -45,34 +47,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "PosicaoPrimaria",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "Interajir",
-            "id": "63db8696-b2cf-44f8-a113-11c0f82c6082",
-            "actions": [
-                {
-                    "name": "Clique",
-                    "type": "Button",
-                    "id": "0546738f-c3ea-4242-9f5c-b27d0f854105",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "62854414-3f3d-45e4-8834-521f003550db",
-                    "path": "<Pointer>/press",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Clique",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

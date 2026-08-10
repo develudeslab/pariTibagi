@@ -1,7 +1,7 @@
 Library: C:\Neabi\pariTibagi\parit\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
 --platform=Android
 --minimum-os-version=
---backend=burst-llvm-19
+--backend=burst-llvm-21
 --target=ARMV8A_AARCH64
 --global-safety-checks-setting=Off
 --meta-data-generation=False
@@ -10,7 +10,7 @@ Library: C:\Neabi\pariTibagi\parit\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_
 --target-framework=NetFramework
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Neabi\pariTibagi\parit\Temp\Burst
---key-folder=C:/Program Files/Unity/Hub/Editor/6000.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer
+--key-folder=C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Neabi\pariTibagi\parit\Library\Burst
 --output=C:\Neabi\pariTibagi\parit\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -33,7 +33,7 @@ Library: C:\Neabi\pariTibagi\parit\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_
 --method=Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[UnityEngine.Rendering.UnifiedRayTracing.ComputeTerrainMeshJob, Unity.UnifiedRayTracing.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.UnifiedRayTracing.ComputeTerrainMeshJob&, Unity.UnifiedRayTracing.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--c2ea85586f916effc3761abaabdf200d
 --platform=Android
 --minimum-os-version=
---backend=burst-llvm-19
+--backend=burst-llvm-21
 --target=ARMV8A_AARCH64
 --global-safety-checks-setting=Off
 --meta-data-generation=False
@@ -42,7 +42,7 @@ Library: C:\Neabi\pariTibagi\parit\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_
 --target-framework=NetFramework
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Neabi\pariTibagi\parit\Temp\Burst
---key-folder=C:/Program Files/Unity/Hub/Editor/6000.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer
+--key-folder=C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Neabi\pariTibagi\parit\Library\Burst
 --output=C:\Neabi\pariTibagi\parit\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -149,7 +149,7 @@ Library: C:\Neabi\pariTibagi\parit\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_
 --method=Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Collections.NativeStream+ConstructJob, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Collections.NativeStream+ConstructJob&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--b78f808503c8b5fe97a83e833bd5871d
 --platform=Android
 --minimum-os-version=
---backend=burst-llvm-19
+--backend=burst-llvm-21
 --target=ARMV8A_AARCH64
 --global-safety-checks-setting=Off
 --disable-safety-checks
@@ -160,7 +160,7 @@ Library: C:\Neabi\pariTibagi\parit\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_
 --float-mode=Fast
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Neabi\pariTibagi\parit\Temp\Burst
---key-folder=C:/Program Files/Unity/Hub/Editor/6000.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer
+--key-folder=C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Neabi\pariTibagi\parit\Library\Burst
 --output=C:\Neabi\pariTibagi\parit\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
