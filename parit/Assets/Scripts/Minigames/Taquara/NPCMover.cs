@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(PlayerAnimation))]
 public class NpcMover : MonoBehaviour
 {
     [Header("Velocidade de movimento")]
@@ -20,10 +21,12 @@ public class NpcMover : MonoBehaviour
     private Vector3 destino;
     private float tempoRestante;
     private bool estaAndando;
+    private PlayerAnimation animacao;
 
     private void Start()
     {
         origem = transform.position;
+        animacao = GetComponent<PlayerAnimation>();
         Parar();
     }
 
@@ -46,6 +49,9 @@ public class NpcMover : MonoBehaviour
             destino,
             velocidade * Time.deltaTime);
 
+        Vector3 direcao = destino - transform.position;
+        animacao.Animacao(new Vector2(direcao.x, direcao.y));
+
         if (transform.position == destino || tempoRestante <= 0f)
         {
             Parar();
@@ -54,15 +60,24 @@ public class NpcMover : MonoBehaviour
 
     private void EscolherDestino()
     {
-        Vector3 deslocamento = Random.insideUnitSphere * distanciaMaxima;
+        Vector3 eixo = Random.value < 0.5f ? Vector3.right : Vector3.up;
+        float sentido = Random.value < 0.5f ? -1f : 1f;
+        float distancia = Random.Range(0.5f, distanciaMaxima);
+        Vector3 deslocamento = eixo * sentido * distancia;
         destino = origem + deslocamento;
         tempoRestante = Random.Range(tempoMinimoAndando, tempoMaximoAndando);
         estaAndando = true;
+        animacao.Animacao(new Vector2(deslocamento.x, deslocamento.y));
     }
 
     private void Parar()
     {
         estaAndando = false;
         tempoRestante = Random.Range(tempoMinimoParado, tempoMaximoParado);
+
+        if (animacao != null)
+        {
+            animacao.Animacao(Vector2.zero);
+        }
     }
 }
