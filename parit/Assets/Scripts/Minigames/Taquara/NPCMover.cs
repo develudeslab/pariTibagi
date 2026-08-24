@@ -1,59 +1,68 @@
 using UnityEngine;
-using System.Collections;
 
-[RequireComponent(typeof(Rigidbody2D))]
-public class NPCMover : MonoBehaviour
+public class NpcMover : MonoBehaviour
 {
-    public float vel = 2f;
-    
-    [Header("Tempo que o caboco fica andando")]
-    public float MinimoAndar = 1f;
-    public float MaximoAndar = 3f;
+    [Header("Velocidade de movimento")]
+    [SerializeField] private float velocidade = 1.5f;
 
-    [Header("Mesma coisa s� que pra parar")]
-    public float PausaCurta = 0.5f;
-    public float PausaLenta = 2f;
+    [Header("Distância que pode andar")]
+    [SerializeField] private float distanciaMaxima = 4f;
 
-    public Transform origem;
+    [Header("Tempo maximo e mínimo andando")]
+    [SerializeField] private float tempoMinimoAndando = 1f;
+    [SerializeField] private float tempoMaximoAndando = 3f;
 
-    private Rigidbody2D rb;
-    private Vector2 direcao;
-    private bool ando;
+    [Header("Tempo maximo e mínimo parado")]
+    [SerializeField] private float tempoMinimoParado = 1f;
+    [SerializeField] private float tempoMaximoParado = 3f;
 
-    void Start()
+    private Vector3 origem;
+    private Vector3 destino;
+    private float tempoRestante;
+    private bool estaAndando;
+
+    private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        rb.gravityScale = 0f;
-        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
-    
-        StartCoroutine(WanderRoutine());
-        transform.position = origem.position;
+        origem = transform.position;
+        Parar();
     }
 
-    void FixedUpdate()
+    private void Update()
     {
-        if (ando)
+        tempoRestante -= Time.deltaTime;
+
+        if (!estaAndando)
         {
-            rb.linearVelocity = direcao * vel;
+            if (tempoRestante <= 0f)
+            {
+                EscolherDestino();
+            }
+
+            return;
         }
-        else
+
+        transform.position = Vector3.MoveTowards(
+            transform.position,
+            destino,
+            velocidade * Time.deltaTime);
+
+        if (transform.position == destino || tempoRestante <= 0f)
         {
-            rb.linearVelocity = Vector2.zero;
+            Parar();
         }
     }
 
-    IEnumerator WanderRoutine()
+    private void EscolherDestino()
     {
-        transform.position = origem.position;
-        while (true)
-        {
-            direcao = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
-            ando = true;
-            float TempoAndar = Random.Range(MinimoAndar, MaximoAndar);
-            yield return new WaitForSeconds(TempoAndar);
-            ando = false;
-            float TempoPausa = Random.Range(PausaCurta, PausaLenta);
-            yield return new WaitForSeconds(TempoPausa);
-        }
+        Vector3 deslocamento = Random.insideUnitSphere * distanciaMaxima;
+        destino = origem + deslocamento;
+        tempoRestante = Random.Range(tempoMinimoAndando, tempoMaximoAndando);
+        estaAndando = true;
+    }
+
+    private void Parar()
+    {
+        estaAndando = false;
+        tempoRestante = Random.Range(tempoMinimoParado, tempoMaximoParado);
     }
 }
