@@ -8,11 +8,13 @@ public class Painel1: MonoBehaviour
     void Start()
     {
         GetComponentInChildren<SeguidorDeAlvoRigidbody2D>().enabled = false;
+        GetComponentInChildren<NpcMover>().enabled = false;
         GetComponent<AudioSource>();
     }
     public void Ativar()
     {
         GetComponentInChildren<SeguidorDeAlvoRigidbody2D>().enabled = true;
+        GetComponentInChildren<NpcMover>().enabled = true;
         UI.Play();
         painel.SetActive(false);
     }

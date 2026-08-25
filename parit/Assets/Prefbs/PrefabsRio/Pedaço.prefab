@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8300655246754945931}
   - component: {fileID: 344336178528745464}
   - component: {fileID: -1877320242516846641}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: "Peda\xE7o"
   m_TagString: "Peda\xE7o"
   m_Icon: {fileID: 0}
@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0.03, y: 5.45, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

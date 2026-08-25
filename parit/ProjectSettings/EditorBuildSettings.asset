@@ -11,9 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TelaInical.unity
     guid: 7789e0892b2adc84ba55c2d8132cd58c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Fase2.unity
-    guid: dd0dbacd0fb755f46b1c9555719e3c46
+    guid: 766c99e6c59cef84f80ab58195fde7ff
   - enabled: 1
     path: Assets/Scenes/Fase 1 Rio.unity
     guid: 42b73eb79264485478130b63aff324bc
