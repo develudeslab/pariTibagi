@@ -49,5 +49,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Baixo
+    uniqueID: 1669279529
+    locked: 0
+  - name: Cima
+    uniqueID: 2795316047
+    locked: 0
   m_RenderingLayers:
   - Default
