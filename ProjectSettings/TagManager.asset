@@ -3,16 +3,24 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Pedra
+  - Pari
+  - "Peda\xE7o"
+  - Peixe
+  - Taquara
+  - Rio
+  - area
+  - Mao
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
+  - "peda\xE7os"
+  - limite
   - 
   - 
   - 
