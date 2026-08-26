@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MontarPari.unity
     guid: 2a9bb24628b5ca848b836a612a1a0212
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 21fcea9ce202d8b469c4945cb26e2b26
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
