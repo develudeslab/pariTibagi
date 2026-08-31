@@ -74,10 +74,5 @@ public class NpcMover : MonoBehaviour
     {
         estaAndando = false;
         tempoRestante = Random.Range(tempoMinimoParado, tempoMaximoParado);
-
-        if (animacao != null)
-        {
-            animacao.Animacao(Vector2.zero);
-        }
     }
 }
