@@ -8,14 +8,13 @@ public class Painel2 : MonoBehaviour
     void Start()
     {
         GetComponentInChildren<SeguidorDeAlvoRigidbody2D>().enabled = false;
-        GetComponentInChildren<Fome>().enabled = false;
         GetComponentInChildren<Spawner>().enabled = false;
         GetComponentInChildren<MovimentoRio>().enabled = false;
     }
+    // danm
     public void Ativar()
     {
         GetComponentInChildren<SeguidorDeAlvoRigidbody2D>().enabled = true;
-        GetComponentInChildren<Fome>().enabled = true;
         GetComponentInChildren<Spawner>().enabled = true;
         GetComponentInChildren<MovimentoRio>().enabled = true;
         painel.SetActive(false);
