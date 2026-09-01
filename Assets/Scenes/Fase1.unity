@@ -19961,7 +19961,6 @@ GameObject:
   - component: {fileID: 926699184}
   - component: {fileID: 926699183}
   - component: {fileID: 926699182}
-  - component: {fileID: 926699181}
   m_Layer: 0
   m_Name: Menino Kairu
   m_TagString: Untagged
@@ -19984,21 +19983,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1034556698}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &926699181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 926699179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 067e30bb68e2a6a45ad02f9f2ab6352b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PegarTaquara
-  taquara: 0
-  corte: {fileID: 1618959901}
-  taquas: {fileID: 1618959901}
 --- !u!114 &926699182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21518,7 +21502,6 @@ GameObject:
   - component: {fileID: 1225742969}
   - component: {fileID: 1225742970}
   - component: {fileID: 1225742971}
-  - component: {fileID: 1225742972}
   m_Layer: 0
   m_Name: Menina Kairu
   m_TagString: Untagged
@@ -21725,21 +21708,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9074224771211194ab234e05e4f7b7e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAnimation
---- !u!114 &1225742972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1225742963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 067e30bb68e2a6a45ad02f9f2ab6352b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PegarTaquara
-  taquara: 0
-  corte: {fileID: 1618959901}
-  taquas: {fileID: 1618959901}
 --- !u!1 &1309787730
 GameObject:
   m_ObjectHideFlags: 0
