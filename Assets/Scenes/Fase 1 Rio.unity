@@ -2653,7 +2653,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Painel
   painel: {fileID: 1221557279}
-  UI: {fileID: 0}
+  UI: {fileID: 1131742288}
 --- !u!1 &673038542
 GameObject:
   m_ObjectHideFlags: 0
@@ -3405,6 +3405,11 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!82 &1131742288 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1296967680065729393, guid: 31204c410d479c24ca70f322258e765a, type: 3}
+  m_PrefabInstance: {fileID: 732589846}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1168343046 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3412290202448293377, guid: 31204c410d479c24ca70f322258e765a, type: 3}

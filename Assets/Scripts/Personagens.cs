@@ -23,6 +23,8 @@ public class Personagens : MonoBehaviour
     [Header("Seleção")]
     [SerializeField] private int indiceSelecionado;
 
+    public SelecionarPersonagem selecionarPersonagem;
+
     public int IndiceSelecionado => indiceSelecionado;
     public DadosPersonagem PersonagemAtual => personagens != null && personagens.Length > 0 ? personagens[indiceSelecionado] : null;
 
