@@ -4,6 +4,8 @@ using UnityEngine.UI;
 
 public class Personagens : MonoBehaviour
 {
+    public const string ChaveSelecao = "personagem_selecionado";
+
     [Serializable]
     public class DadosPersonagem
     {
@@ -27,6 +29,12 @@ public class Personagens : MonoBehaviour
 
     public int IndiceSelecionado => indiceSelecionado;
     public DadosPersonagem PersonagemAtual => personagens != null && personagens.Length > 0 ? personagens[indiceSelecionado] : null;
+
+    public void SalvarSelecao()
+    {
+        PlayerPrefs.SetInt(ChaveSelecao, indiceSelecionado);
+        PlayerPrefs.Save();
+    }
 
     private void Start()
     {
