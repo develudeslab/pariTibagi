@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class AplicarControllerPersonagem : MonoBehaviour
 {
-    [Header("Controllers na mesma ordem da lista de personagens")]
+    [Header("Controllers dos Personagens")]
     [SerializeField] private RuntimeAnimatorController[] controllers;
 
     private Animator animator;

@@ -607,14 +607,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Personagens
   personagens:
+  - nome: Menino Kairu
+    sprite: {fileID: -3380846259380766841, guid: 0fe1debf87cbff140932320a274a2814, type: 3}
+  - nome: Menina Kairu
+    sprite: {fileID: -6407298655666975802, guid: f50be33007dbc9a47bbe6eddbc9737dc, type: 3}
   - nome: "Menino Kam\xE9"
     sprite: {fileID: 3838334639979220430, guid: 7f36af98e651a2242a21ac2fada83bc1, type: 3}
-  - nome: 
+  - nome: "Menina Kam\xE9"
     sprite: {fileID: 8229655785297927114, guid: 5eba597e27309324fa2d0a9be725d357, type: 3}
-  - nome: 
-    sprite: {fileID: -3380846259380766841, guid: 0fe1debf87cbff140932320a274a2814, type: 3}
-  - nome: 
-    sprite: {fileID: 8198888024738866348, guid: 1b39fe882dbb11b409e75b8a41914123, type: 3}
   botaoAnterior: {fileID: 1204302910}
   botaoProximo: {fileID: 1228746724}
   imagemPreview: {fileID: 1031056598}
