@@ -158,6 +158,11 @@ Transform:
   - {fileID: 732589847}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &114244240 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 479416102380993352, guid: 31204c410d479c24ca70f322258e765a, type: 3}
+  m_PrefabInstance: {fileID: 732589846}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &142427401
 GameObject:
   m_ObjectHideFlags: 0
@@ -2841,10 +2846,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8451054793260391617, guid: 31204c410d479c24ca70f322258e765a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 479416102380993352, guid: 31204c410d479c24ca70f322258e765a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1131742292}
   m_SourcePrefab: {fileID: 100100000, guid: 31204c410d479c24ca70f322258e765a, type: 3}
 --- !u!4 &732589847 stripped
 Transform:
@@ -3428,6 +3437,20 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 1296967680065729393, guid: 31204c410d479c24ca70f322258e765a, type: 3}
   m_PrefabInstance: {fileID: 732589846}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1131742292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114244240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82790ef4588ac5146bc6a86de1bdce2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RioMinigame
+  velocidadeMovimento: {x: 0, y: 1}
+  agua: {fileID: 1131742288}
 --- !u!4 &1168343046 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3412290202448293377, guid: 31204c410d479c24ca70f322258e765a, type: 3}
