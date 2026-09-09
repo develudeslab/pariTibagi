@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: e6defbd15e3d13b41b9af75165aa8ecf
+guid: 0980164e86447cb4194b19a753405c49
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4934844790808020940
-    second: "GKairu\xC1guaLado Idle_0"
+      213: 7566924510148993460
+    second: GAKameAguaCostas Andando_0
   - first:
-      213: 8045447457183106375
-    second: "GKairu\xC1guaLado Idle_1"
+      213: -7450897009271473857
+    second: GAKameAguaCostas Andando_1
+  - first:
+      213: 4319477100467561412
+    second: GAKameAguaCostas Andando_2
+  - first:
+      213: -6530036152107412891
+    second: GAKameAguaCostas Andando_3
+  - first:
+      213: -5669726949109184380
+    second: GAKameAguaCostas Andando_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -54,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -78,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -112,62 +121,115 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "GKairu\xC1guaLado Idle_0"
+      name: GAKameAguaCostas Andando_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 4
         y: 0
-        width: 32
-        height: 32
+        width: 25
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43873360fc8e38bb0800000000000000
-      internalID: -4934844790808020940
+      spriteID: 4b1a0ad20cd130960800000000000000
+      internalID: 7566924510148993460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "GKairu\xC1guaLado Idle_1"
+      name: GAKameAguaCostas Andando_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 33
         y: 0
-        width: 32
-        height: 32
+        width: 28
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7450870f5db27af60800000000000000
-      internalID: 8045447457183106375
+      spriteID: f397a5885a8199890800000000000000
+      internalID: -7450897009271473857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAKameAguaCostas Andando_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3adcc898dd1fb30800000000000000
+      internalID: 4319477100467561412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAKameAguaCostas Andando_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562dd2f97b6a065a0800000000000000
+      internalID: -6530036152107412891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAKameAguaCostas Andando_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48843e811651151b0800000000000000
+      internalID: -5669726949109184380
       vertices: []
       indices: 
       edges: []
@@ -176,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 48e7edfb4d352e74bb7a9ea0703cbc28
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -184,12 +246,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      "GKairu\xC1guaLado Idle_0": -4934844790808020940
-      "GKairu\xC1guaLado Idle_1": 8045447457183106375
+      GAKameAguaCostas Andando_0: 7566924510148993460
+      GAKameAguaCostas Andando_1: -7450897009271473857
+      GAKameAguaCostas Andando_2: 4319477100467561412
+      GAKameAguaCostas Andando_3: -6530036152107412891
+      GAKameAguaCostas Andando_4: -5669726949109184380
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

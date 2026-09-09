@@ -11,6 +11,7 @@ public class PlayerAnimation : MonoBehaviour
     private int moveXHash;
     private int moveYHash;
     private int IsMovingHash;
+    private int NaAguaHash;
 
     // Guarda a �ltima dire��o de movimento real para o idle.
     private Vector2 UltimaDirecao = Vector2.zero;
@@ -23,12 +24,18 @@ public class PlayerAnimation : MonoBehaviour
         moveXHash = Animator.StringToHash("MoveX");
         moveYHash = Animator.StringToHash("MoveY");
         IsMovingHash = Animator.StringToHash("IsMoving");
+        NaAguaHash = Animator.StringToHash("NaAgua");
 
         // Inicia a dire��o com os valores atuais do Animator, se houver.
         UltimaDirecao = new Vector2(
             animator.GetFloat(moveXHash),
             animator.GetFloat(moveYHash)
         );
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+       //if(collision )
     }
 
     public void Animacao(Vector2 moveInput)

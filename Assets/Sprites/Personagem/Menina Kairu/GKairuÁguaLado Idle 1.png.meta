@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e6defbd15e3d13b41b9af75165aa8ecf
+guid: 01b1ec4724733b2489caee6cea7599ee
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "GKairu\xC1guaLado Idle_0"
+      name: "GKairu\xC1guaLado Idle 1_0"
       rect:
         serializedVersion: 2
         x: 0
@@ -142,16 +142,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 43873360fc8e38bb0800000000000000
-      internalID: -4934844790808020940
+      spriteID: 8405a979a96ec0846bbe68979180a731
+      internalID: -411891179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "GKairu\xC1guaLado Idle_1"
+      name: "GKairu\xC1guaLado Idle 1_1"
       rect:
         serializedVersion: 2
         x: 32
@@ -164,10 +164,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7450870f5db27af60800000000000000
-      internalID: 8045447457183106375
+      spriteID: b65b96b95cae7844ebcef321544f95db
+      internalID: -963188055
       vertices: []
       indices: 
       edges: []
@@ -176,7 +176,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 48e7edfb4d352e74bb7a9ea0703cbc28
+    spriteID: 1deb3255cd25c0a408ea35744614e9a1
     internalID: 0
     vertices: []
     indices: 
@@ -188,8 +188,8 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      "GKairu\xC1guaLado Idle_0": -4934844790808020940
-      "GKairu\xC1guaLado Idle_1": 8045447457183106375
+      "GKairu\xC1guaLado Idle 1_0": -411891179
+      "GKairu\xC1guaLado Idle 1_1": -963188055
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

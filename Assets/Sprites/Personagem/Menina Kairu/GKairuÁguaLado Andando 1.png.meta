@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: e6defbd15e3d13b41b9af75165aa8ecf
+guid: 69f7ec2944a29b1419f7cbae9f9605f2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4934844790808020940
-    second: "GKairu\xC1guaLado Idle_0"
+      213: 6236623504686058127
+    second: "GKairu\xC1guaLado Andando_0"
   - first:
-      213: 8045447457183106375
-    second: "GKairu\xC1guaLado Idle_1"
+      213: 4565248488616210020
+    second: "GKairu\xC1guaLado Andando_1"
+  - first:
+      213: -6425746691143607344
+    second: "GKairu\xC1guaLado Andando_2"
+  - first:
+      213: 5634626750176963833
+    second: "GKairu\xC1guaLado Andando_3"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,7 +135,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "GKairu\xC1guaLado Idle_0"
+      name: "GKairu\xC1guaLado Andando 1_0"
       rect:
         serializedVersion: 2
         x: 0
@@ -142,16 +148,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 43873360fc8e38bb0800000000000000
-      internalID: -4934844790808020940
+      spriteID: 4715263e05ad56544bb4b10a198181da
+      internalID: 1666650561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "GKairu\xC1guaLado Idle_1"
+      name: "GKairu\xC1guaLado Andando 1_1"
       rect:
         serializedVersion: 2
         x: 32
@@ -164,10 +170,54 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7450870f5db27af60800000000000000
-      internalID: 8045447457183106375
+      spriteID: b5273e78a12833a4798951a509dab40c
+      internalID: -2133989170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GKairu\xC1guaLado Andando 1_2"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f436dfa1841d2c429b738cd92d2214c
+      internalID: 1031546663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GKairu\xC1guaLado Andando 1_3"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489d397a359f87d4dad71094a2b84041
+      internalID: 2043434164
       vertices: []
       indices: 
       edges: []
@@ -176,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 48e7edfb4d352e74bb7a9ea0703cbc28
+    spriteID: bc9ecdec12409e3438ff1422f462b92c
     internalID: 0
     vertices: []
     indices: 
@@ -188,8 +238,10 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      "GKairu\xC1guaLado Idle_0": -4934844790808020940
-      "GKairu\xC1guaLado Idle_1": 8045447457183106375
+      "GKairu\xC1guaLado Andando 1_0": 1666650561
+      "GKairu\xC1guaLado Andando 1_1": -2133989170
+      "GKairu\xC1guaLado Andando 1_2": 1031546663
+      "GKairu\xC1guaLado Andando 1_3": 2043434164
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
