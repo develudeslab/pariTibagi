@@ -35,12 +35,16 @@ public class PlayerAnimation : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-       //if(collision )
+        if (collision.CompareTag("Rio"));
+        {
+            bool NaAgua = true;
+        }
     }
 
     public void Animacao(Vector2 moveInput)
     {
         bool estaMovendo = moveInput.sqrMagnitude > 0.01f;
+        bool NaAgua = false;
 
         if (estaMovendo)
         {
@@ -51,6 +55,11 @@ public class PlayerAnimation : MonoBehaviour
         else
         {
             // Mantemos altima direo para o idle.
+            animator.SetFloat(moveXHash, UltimaDirecao.x);
+            animator.SetFloat(moveYHash, UltimaDirecao.y);
+        }
+        if(estaMovendo && NaAgua)
+        {
             animator.SetFloat(moveXHash, UltimaDirecao.x);
             animator.SetFloat(moveYHash, UltimaDirecao.y);
         }
