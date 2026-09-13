@@ -135,89 +135,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "BKam\xE9\xC1guaLado Andando_0"
+      name: "BKam\xE9\xC1guaLado Andando 1_0"
       rect:
         serializedVersion: 2
-        x: 3
+        x: 0
         y: 0
-        width: 25
-        height: 30
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 225253bf561610db0800000000000000
-      internalID: -4827470234930305758
+      spriteID: 06439bddbe2e5a3428440688f3addeb5
+      internalID: -942125162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "BKam\xE9\xC1guaLado Andando_1"
+      name: "BKam\xE9\xC1guaLado Andando 1_1"
       rect:
         serializedVersion: 2
-        x: 39
+        x: 32
         y: 0
-        width: 24
-        height: 30
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ba81fb83082ed2c20800000000000000
-      internalID: 3183449551956547755
+      spriteID: 5030f4cef913c704b9220ae9dc595dad
+      internalID: 544361460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "BKam\xE9\xC1guaLado Andando_2"
+      name: "BKam\xE9\xC1guaLado Andando 1_2"
       rect:
         serializedVersion: 2
-        x: 71
+        x: 64
         y: 0
-        width: 25
-        height: 30
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b89bae332ecb8a2a0800000000000000
-      internalID: -6725918363758184053
+      spriteID: 2d02135fbd3458c4090e100b88b98ba1
+      internalID: -388825407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "BKam\xE9\xC1guaLado Andando_3"
+      name: "BKam\xE9\xC1guaLado Andando 1_3"
       rect:
         serializedVersion: 2
-        x: 100
+        x: 96
         y: 0
-        width: 24
-        height: 30
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 89e1a840b80d850e0800000000000000
-      internalID: -2280843915767964008
+      spriteID: 27f2ae0e42f3b0f4dba6996ec2b33f10
+      internalID: 1397956355
       vertices: []
       indices: 
       edges: []
@@ -226,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f5c1dadfd7c25864cb63f59c3282a426
     internalID: 0
     vertices: []
     indices: 
@@ -234,12 +234,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      "BKam\xE9\xC1guaLado Andando_0": -4827470234930305758
-      "BKam\xE9\xC1guaLado Andando_1": 3183449551956547755
-      "BKam\xE9\xC1guaLado Andando_2": -6725918363758184053
-      "BKam\xE9\xC1guaLado Andando_3": -2280843915767964008
+      "BKam\xE9\xC1guaLado Andando 1_0": -942125162
+      "BKam\xE9\xC1guaLado Andando 1_1": 544361460
+      "BKam\xE9\xC1guaLado Andando 1_2": -388825407
+      "BKam\xE9\xC1guaLado Andando 1_3": 1397956355
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

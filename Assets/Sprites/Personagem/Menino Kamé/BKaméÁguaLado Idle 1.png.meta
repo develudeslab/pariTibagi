@@ -129,45 +129,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "BKam\xE9\xC1guaLado Idle_0"
+      name: "BKam\xE9\xC1guaLado Idle 1_0"
       rect:
         serializedVersion: 2
-        x: 6
+        x: 0
         y: 0
-        width: 22
-        height: 30
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bafa7542568187660800000000000000
-      internalID: 7383678411754418091
+      spriteID: 595d7c9370ac21b46a172e1565efd49f
+      internalID: -186718194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "BKam\xE9\xC1guaLado Idle_1"
+      name: "BKam\xE9\xC1guaLado Idle 1_1"
       rect:
         serializedVersion: 2
-        x: 38
+        x: 32
         y: 0
-        width: 22
-        height: 30
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bce3513a69eebdc80800000000000000
-      internalID: -8296775557751423285
+      spriteID: 23f72ac13181ca743a98e0b5970a3603
+      internalID: -1677279017
       vertices: []
       indices: 
       edges: []
@@ -176,7 +176,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9126ae70a3eec7e4992bdf9e6304fea5
     internalID: 0
     vertices: []
     indices: 
@@ -184,10 +184,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      "BKam\xE9\xC1guaLado Idle_0": 7383678411754418091
-      "BKam\xE9\xC1guaLado Idle_1": -8296775557751423285
+      "BKam\xE9\xC1guaLado Idle 1_0": -186718194
+      "BKam\xE9\xC1guaLado Idle 1_1": -1677279017
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
