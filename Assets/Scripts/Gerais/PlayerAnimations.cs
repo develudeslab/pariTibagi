@@ -11,7 +11,7 @@ public class PlayerAnimation : MonoBehaviour
     private int moveXHash;
     private int moveYHash;
     private int IsMovingHash;
-    private int NaAguaHash;
+    private int aguaHash;
 
     // Guarda a �ltima dire��o de movimento real para o idle.
     private Vector2 UltimaDirecao = Vector2.zero;
@@ -24,7 +24,7 @@ public class PlayerAnimation : MonoBehaviour
         moveXHash = Animator.StringToHash("MoveX");
         moveYHash = Animator.StringToHash("MoveY");
         IsMovingHash = Animator.StringToHash("IsMoving");
-        NaAguaHash = Animator.StringToHash("NaAgua");
+        aguaHash = Animator.StringToHash("agua");
 
         // Inicia a dire��o com os valores atuais do Animator, se houver.
         UltimaDirecao = new Vector2(
@@ -33,19 +33,27 @@ public class PlayerAnimation : MonoBehaviour
         );
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Rio"));
+        if (collision.CompareTag("Rio"))
         {
-            bool NaAgua = true;
+            animator.SetBool(aguaHash, true);
+            Debug.Log("Entrou no rio");
+        }
+    }
+
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Rio"))
+        {
+            animator.SetBool(aguaHash, false);
+            Debug.Log("Saiu do rio");
         }
     }
 
     public void Animacao(Vector2 moveInput)
     {
         bool estaMovendo = moveInput.sqrMagnitude > 0.01f;
-        bool NaAgua = false;
-
         if (estaMovendo)
         {
             UltimaDirecao = moveInput.normalized;
@@ -58,12 +66,6 @@ public class PlayerAnimation : MonoBehaviour
             animator.SetFloat(moveXHash, UltimaDirecao.x);
             animator.SetFloat(moveYHash, UltimaDirecao.y);
         }
-        if(estaMovendo && NaAgua)
-        {
-            animator.SetFloat(moveXHash, UltimaDirecao.x);
-            animator.SetFloat(moveYHash, UltimaDirecao.y);
-        }
-
         animator.SetBool(IsMovingHash, estaMovendo);
     }
 }

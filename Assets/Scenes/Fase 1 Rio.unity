@@ -3033,8 +3033,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.31195688}
-  m_Size: {x: 1, y: 1}
+  m_Offset: {x: -0.010274363, y: -0.19437233}
+  m_Size: {x: 0.34021655, y: 0.7648309}
   m_Direction: 0
 --- !u!114 &798377071
 MonoBehaviour:
@@ -4157,6 +4157,14 @@ PrefabInstance:
     - target: {fileID: 479416102380993352, guid: 31204c410d479c24ca70f322258e765a, type: 3}
       propertyPath: m_Name
       value: Rio
+      objectReference: {fileID: 0}
+    - target: {fileID: 858662799140061996, guid: 31204c410d479c24ca70f322258e765a, type: 3}
+      propertyPath: m_Size.x
+      value: 0.7425867
+      objectReference: {fileID: 0}
+    - target: {fileID: 858662799140061996, guid: 31204c410d479c24ca70f322258e765a, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.006534487
       objectReference: {fileID: 0}
     - target: {fileID: 3412290202448293377, guid: 31204c410d479c24ca70f322258e765a, type: 3}
       propertyPath: m_LocalPosition.x
