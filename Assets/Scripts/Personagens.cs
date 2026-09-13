@@ -1,3 +1,4 @@
+using TMPro;
 using System;
 using UnityEngine;
 using UnityEngine.UI;
@@ -20,7 +21,7 @@ public class Personagens : MonoBehaviour
     [SerializeField] private Button botaoAnterior;
     [SerializeField] private Button botaoProximo;
     [SerializeField] private Image imagemPreview;
-    [SerializeField] private Text nomeSelecionado;
+    [SerializeField] public TMP_Text nomeSelecionado;
 
     [Header("Seleção")]
     [SerializeField] private int indiceSelecionado;
