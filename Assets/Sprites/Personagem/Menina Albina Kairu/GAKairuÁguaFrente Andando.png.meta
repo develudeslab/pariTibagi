@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: 649093a278537af4cbf501301e371b53
+guid: 766d123295c9f5d45bf80b7602f01b7f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 947420391129190231
-    second: "GAKam\xE9\xC1guaLado Idle_0"
+      213: -7833532238975275593
+    second: "GAKairu\xC1guaFrente Andando_0"
   - first:
-      213: -5044307425768734757
-    second: "GAKam\xE9\xC1guaLado Idle_1"
+      213: 1750416626825988123
+    second: "GAKairu\xC1guaFrente Andando_1"
+  - first:
+      213: 2221520562880927396
+    second: "GAKairu\xC1guaFrente Andando_2"
+  - first:
+      213: 8881646980843932800
+    second: "GAKairu\xC1guaFrente Andando_3"
+  - first:
+      213: 5273554309609861617
+    second: "GAKairu\xC1guaFrente Andando_4"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,12 +138,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "GAKam\xE9\xC1guaLado Idle_0"
+      name: "GAKairu\xC1guaFrente Andando_0"
       rect:
         serializedVersion: 2
-        x: 6
+        x: 4
         y: 0
-        width: 22
+        width: 25
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -144,19 +153,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75f873a73d9e52d00800000000000000
-      internalID: 947420391129190231
+      spriteID: 7bdee47bee3b94390800000000000000
+      internalID: -7833532238975275593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "GAKam\xE9\xC1guaLado Idle_1"
+      name: "GAKairu\xC1guaFrente Andando_1"
       rect:
         serializedVersion: 2
-        x: 38
+        x: 33
         y: 0
-        width: 22
+        width: 28
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -166,8 +175,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bdf70354f150ff9b0800000000000000
-      internalID: -5044307425768734757
+      spriteID: b1886e2e5aaba4810800000000000000
+      internalID: 1750416626825988123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GAKairu\xC1guaFrente Andando_2"
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a65ebb8e2d64de10800000000000000
+      internalID: 2221520562880927396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GAKairu\xC1guaFrente Andando_3"
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c8f914fd2f14b70800000000000000
+      internalID: 8881646980843932800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GAKairu\xC1guaFrente Andando_4"
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1b60044bd6f2940800000000000000
+      internalID: 5273554309609861617
       vertices: []
       indices: 
       edges: []
@@ -186,8 +261,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "GAKam\xE9\xC1guaLado Idle_0": 947420391129190231
-      "GAKam\xE9\xC1guaLado Idle_1": -5044307425768734757
+      "GAKairu\xC1guaFrente Andando_0": -7833532238975275593
+      "GAKairu\xC1guaFrente Andando_1": 1750416626825988123
+      "GAKairu\xC1guaFrente Andando_2": 2221520562880927396
+      "GAKairu\xC1guaFrente Andando_3": 8881646980843932800
+      "GAKairu\xC1guaFrente Andando_4": 5273554309609861617
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

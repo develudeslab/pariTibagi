@@ -1,13 +1,28 @@
 fileFormatVersion: 2
-guid: 649093a278537af4cbf501301e371b53
+guid: 0093ae20a3763364da4d76fd16f36d93
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 947420391129190231
-    second: "GAKam\xE9\xC1guaLado Idle_0"
+      213: -5152494678166027133
+    second: BAKameAguaCostas Andando_0
   - first:
-      213: -5044307425768734757
-    second: "GAKam\xE9\xC1guaLado Idle_1"
+      213: -6313045913400330266
+    second: BAKameAguaCostas Andando_1
+  - first:
+      213: -3025777405329114059
+    second: BAKameAguaCostas Andando_2
+  - first:
+      213: -7943006001534355657
+    second: BAKameAguaCostas Andando_3
+  - first:
+      213: 7103918584783784811
+    second: BAKameAguaCostas Andando_4
+  - first:
+      213: 2969891491136371503
+    second: BAKameAguaCostas Andando_5
+  - first:
+      213: -7659895479230606761
+    second: BAKameAguaCostas Andando_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,45 +144,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "GAKam\xE9\xC1guaLado Idle_0"
+      name: BAKameAguaCostas Andando_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 0
         y: 0
-        width: 22
-        height: 28
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75f873a73d9e52d00800000000000000
-      internalID: 947420391129190231
+      spriteID: 384c2d8a369ae78b0800000000000000
+      internalID: -5152494678166027133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "GAKam\xE9\xC1guaLado Idle_1"
+      name: BAKameAguaCostas Andando_1
       rect:
         serializedVersion: 2
-        x: 38
+        x: 32
         y: 0
-        width: 22
-        height: 28
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bdf70354f150ff9b0800000000000000
-      internalID: -5044307425768734757
+      spriteID: 6e7ba01903e8368a0800000000000000
+      internalID: -6313045913400330266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BAKameAguaCostas Andando_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c74f92b774206d0800000000000000
+      internalID: -3025777405329114059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BAKameAguaCostas Andando_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737bfbd1026c4c190800000000000000
+      internalID: -7943006001534355657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BAKameAguaCostas Andando_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b455f8050369260800000000000000
+      internalID: 7103918584783784811
       vertices: []
       indices: 
       edges: []
@@ -176,7 +257,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7576b2c7df661a14987c4197c795a786
     internalID: 0
     vertices: []
     indices: 
@@ -184,10 +265,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      "GAKam\xE9\xC1guaLado Idle_0": 947420391129190231
-      "GAKam\xE9\xC1guaLado Idle_1": -5044307425768734757
+      BAKameAguaCostas Andando_0: -5152494678166027133
+      BAKameAguaCostas Andando_1: -6313045913400330266
+      BAKameAguaCostas Andando_2: -3025777405329114059
+      BAKameAguaCostas Andando_3: -7943006001534355657
+      BAKameAguaCostas Andando_4: 7103918584783784811
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

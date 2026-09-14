@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 649093a278537af4cbf501301e371b53
+guid: c34b5e9cec59c8f498ff7453cbbcfb34
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 947420391129190231
-    second: "GAKam\xE9\xC1guaLado Idle_0"
-  - first:
-      213: -5044307425768734757
-    second: "GAKam\xE9\xC1guaLado Idle_1"
+      213: -7225023107594422638
+    second: GAKairuAguaCostas Idle_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,12 +126,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "GAKam\xE9\xC1guaLado Idle_0"
+      name: GAKairuAguaCostas Idle_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 4
         y: 0
-        width: 22
+        width: 25
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -144,30 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75f873a73d9e52d00800000000000000
-      internalID: 947420391129190231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "GAKam\xE9\xC1guaLado Idle_1"
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 0
-        width: 22
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bdf70354f150ff9b0800000000000000
-      internalID: -5044307425768734757
+      spriteID: 29678d173cf8bbb90800000000000000
+      internalID: -7225023107594422638
       vertices: []
       indices: 
       edges: []
@@ -186,8 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "GAKam\xE9\xC1guaLado Idle_0": 947420391129190231
-      "GAKam\xE9\xC1guaLado Idle_1": -5044307425768734757
+      GAKairuAguaCostas Idle_0: -7225023107594422638
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

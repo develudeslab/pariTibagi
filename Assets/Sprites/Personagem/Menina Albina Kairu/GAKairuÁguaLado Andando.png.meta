@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 649093a278537af4cbf501301e371b53
+guid: cdc9c886b0ba4d642a79b7d89f5f95ab
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 947420391129190231
-    second: "GAKam\xE9\xC1guaLado Idle_0"
+      213: 8322186485404545717
+    second: "GAKairu\xC1guaLado Andando_0"
   - first:
-      213: -5044307425768734757
-    second: "GAKam\xE9\xC1guaLado Idle_1"
+      213: 6210403670451654364
+    second: "GAKairu\xC1guaLado Andando_1"
+  - first:
+      213: 9046711384479983503
+    second: "GAKairu\xC1guaLado Andando_2"
+  - first:
+      213: 2372172850999603755
+    second: "GAKairu\xC1guaLado Andando_3"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,12 +135,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "GAKam\xE9\xC1guaLado Idle_0"
+      name: "GAKairu\xC1guaLado Andando_0"
       rect:
         serializedVersion: 2
-        x: 6
+        x: 3
         y: 0
-        width: 22
+        width: 25
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -144,19 +150,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75f873a73d9e52d00800000000000000
-      internalID: 947420391129190231
+      spriteID: 5b2381104885e7370800000000000000
+      internalID: 8322186485404545717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "GAKam\xE9\xC1guaLado Idle_1"
+      name: "GAKairu\xC1guaLado Andando_1"
       rect:
         serializedVersion: 2
-        x: 38
+        x: 39
         y: 0
-        width: 22
+        width: 24
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -166,8 +172,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bdf70354f150ff9b0800000000000000
-      internalID: -5044307425768734757
+      spriteID: cde8d01fb39cf2650800000000000000
+      internalID: 6210403670451654364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GAKairu\xC1guaLado Andando_2"
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87696992106c8d70800000000000000
+      internalID: 9046711384479983503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GAKairu\xC1guaLado Andando_3"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2238a1c3a6abe020800000000000000
+      internalID: 2372172850999603755
       vertices: []
       indices: 
       edges: []
@@ -186,8 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "GAKam\xE9\xC1guaLado Idle_0": 947420391129190231
-      "GAKam\xE9\xC1guaLado Idle_1": -5044307425768734757
+      "GAKairu\xC1guaLado Andando_0": 8322186485404545717
+      "GAKairu\xC1guaLado Andando_1": 6210403670451654364
+      "GAKairu\xC1guaLado Andando_2": 9046711384479983503
+      "GAKairu\xC1guaLado Andando_3": 2372172850999603755
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

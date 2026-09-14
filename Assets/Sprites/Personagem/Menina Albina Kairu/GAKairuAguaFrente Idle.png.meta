@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 649093a278537af4cbf501301e371b53
+guid: 3500368a0fd5edb478867d73c36ac696
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 947420391129190231
-    second: "GAKam\xE9\xC1guaLado Idle_0"
+      213: -4501660428114632850
+    second: GAKairuAguaFrente Idle_0
   - first:
-      213: -5044307425768734757
-    second: "GAKam\xE9\xC1guaLado Idle_1"
+      213: -1007236021183980824
+    second: GAKairuAguaFrente Idle_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,12 +129,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "GAKam\xE9\xC1guaLado Idle_0"
+      name: GAKairuAguaFrente Idle_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 4
         y: 0
-        width: 22
+        width: 25
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -144,19 +144,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75f873a73d9e52d00800000000000000
-      internalID: 947420391129190231
+      spriteID: e6f5bc201b3e681c0800000000000000
+      internalID: -4501660428114632850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "GAKam\xE9\xC1guaLado Idle_1"
+      name: GAKairuAguaFrente Idle_1
       rect:
         serializedVersion: 2
-        x: 38
+        x: 36
         y: 0
-        width: 22
+        width: 25
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bdf70354f150ff9b0800000000000000
-      internalID: -5044307425768734757
+      spriteID: 8ead950ec249502f0800000000000000
+      internalID: -1007236021183980824
       vertices: []
       indices: 
       edges: []
@@ -186,8 +186,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "GAKam\xE9\xC1guaLado Idle_0": 947420391129190231
-      "GAKam\xE9\xC1guaLado Idle_1": -5044307425768734757
+      GAKairuAguaFrente Idle_0: -4501660428114632850
+      GAKairuAguaFrente Idle_1: -1007236021183980824
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
