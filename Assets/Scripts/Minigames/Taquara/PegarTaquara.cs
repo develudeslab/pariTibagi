@@ -1,12 +1,14 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
-
+using TMPro;
 public class PegarTaquara : MonoBehaviour
 {
     public int taquara;
     public AudioSource corte;
     public AudioSource taquas;
+    [SerializeField] private TextMeshProUGUI textoTaquara;
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -16,10 +18,7 @@ public class PegarTaquara : MonoBehaviour
             corte.Play();
             taquas.Play();
             StartCoroutine(esperar(collision.gameObject));
-            if(taquara >= 10)
-            {
-                SceneManager.LoadScene("MontarPari");
-            }
+            
         }
     }
 
@@ -27,5 +26,15 @@ public class PegarTaquara : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         Destroy(obj);
+        AtualizarUI();
+        if (taquara >= 10)
+        {
+            SceneManager.LoadScene("MontarPari");
+        }
+    }
+    void AtualizarUI() {
+        if (textoTaquara != null) {
+            textoTaquara.text =taquara + "/10";
+        }
     }
 }
