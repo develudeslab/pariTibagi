@@ -153,8 +153,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 2.554999}
+  m_SizeDelta: {x: 0, y: 5.110002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &116514012
 MonoBehaviour:
@@ -176,9 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Jogar
-
-'
+  m_text: JOGAR
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -205,8 +203,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -270,7 +268,7 @@ GameObject:
   - component: {fileID: 668228274}
   - component: {fileID: 668228273}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Fundo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -292,8 +290,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0032859, y: 0.0000056689}
-  m_SizeDelta: {x: 71.146, y: 60}
+  m_AnchoredPosition: {x: -1.758, y: 0.0000056689}
+  m_SizeDelta: {x: 78.6501, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &668228273
 MonoBehaviour:
@@ -449,7 +447,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8545761501449185026, guid: b0491683378096a489c82e2f6f35dbd2, type: 3}
+  m_Sprite: {fileID: -5552118531381489681, guid: 4671f681041ffc64d9c19da7607f58bc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
