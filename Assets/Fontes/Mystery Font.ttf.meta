@@ -1,21 +1,21 @@
 fileFormatVersion: 2
-guid: 3d68173a29be9b44094eefd96b3f5772
+guid: 791257d42f3f7cf4e9d0568dbb5effff
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
   fontSize: 16
-  forceTextureCase: 3
+  forceTextureCase: -2
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Parit
+  - Mystery Font
   fallbackFontReferences: []
-  customCharacters: ABCDEFGHIJKLMNOPQRSTUVWXYZ
-  fontRenderingMode: 2
+  customCharacters: 
+  fontRenderingMode: 0
   ascentCalculationMode: 1
   useLegacyBoundsCalculation: 0
-  shouldRoundAdvanceValue: 0
+  shouldRoundAdvanceValue: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 
