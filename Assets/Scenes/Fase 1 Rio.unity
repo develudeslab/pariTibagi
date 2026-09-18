@@ -308,6 +308,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 654355561}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &221982546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -374,13 +386,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253441983}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 1.34, y: 6, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 47649913}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &253441985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -394,7 +406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Peixe
   velocidade: 5
-  limiteY: -5
+  limiteY: -10
   Minigame: {fileID: 47649912}
   Player: {fileID: 798377065}
   OrigemPeixe: {fileID: 1311040982}
@@ -3818,7 +3830,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 8
   m_MaskInteraction: 0
   m_Sprite: {fileID: -6624435121718230369, guid: f40b40dc487669047986cb2accf56e3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4306,7 +4318,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 8
   m_MaskInteraction: 0
   m_Sprite: {fileID: -6624435121718230369, guid: f40b40dc487669047986cb2accf56e3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

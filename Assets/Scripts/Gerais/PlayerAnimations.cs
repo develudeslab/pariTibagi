@@ -38,7 +38,6 @@ public class PlayerAnimation : MonoBehaviour
         if (collision.CompareTag("Rio"))
         {
             animator.SetBool(aguaHash, true);
-            Debug.Log("Entrou no rio");
         }
     }
 
@@ -47,7 +46,6 @@ public class PlayerAnimation : MonoBehaviour
         if (collision.CompareTag("Rio"))
         {
             animator.SetBool(aguaHash, false);
-            Debug.Log("Saiu do rio");
         }
     }
 

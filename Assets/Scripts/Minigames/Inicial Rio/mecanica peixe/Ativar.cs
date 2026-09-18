@@ -14,7 +14,7 @@ public class Ativar : MonoBehaviour
     
     void Update()
     {
-        if (Peixe.peixes >= 5)
+        if (Peixe.peixes > 5)
         {
             SceneManager.LoadScene("Fase1");
         }

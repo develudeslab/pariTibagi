@@ -4,10 +4,16 @@ using System.Collections.Generic;
 public class Cair : MonoBehaviour
 {
     public float velocidade = 1f;
+    public float Tempo = 5f;
     
     void Update()
     {
         velocidade += Time.deltaTime;
+        Tempo -= Time.deltaTime;
+        if (Tempo <= 0f)
+        {
+            Destroy(gameObject);
+        }
 
         Vector3 posicao = transform.position;
         posicao.y -= velocidade * Time.deltaTime;

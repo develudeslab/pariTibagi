@@ -33,8 +33,9 @@ public class Peixe : MonoBehaviour
             return;
 
         velocidade += Time.unscaledDeltaTime;
-        transform.Translate(Vector3.down * velocidade * Time.unscaledDeltaTime);
-
+        Vector3 posicao = transform.position;
+        posicao.y -= velocidade * Time.unscaledDeltaTime;
+        transform.position = posicao;
         if (transform.position.y <= limiteY)
         {
             velocidade = 0f;
