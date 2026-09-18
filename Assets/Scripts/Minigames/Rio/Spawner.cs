@@ -31,7 +31,7 @@ public class Spawner : MonoBehaviour
         Instantiate(
             Prefabs[Aleatorio],
             posicaoSpawn,
-            Quaternion.identity
+            Quaternion.Euler(0f, 0f, 90f)
         );
     }
 }

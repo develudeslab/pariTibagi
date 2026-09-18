@@ -8,7 +8,10 @@ public class Cair : MonoBehaviour
     void Update()
     {
         velocidade += Time.deltaTime;
-        transform.Translate(Vector3.down * velocidade * Time.deltaTime);
+
+        Vector3 posicao = transform.position;
+        posicao.y -= velocidade * Time.deltaTime;
+        transform.position = posicao;
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
