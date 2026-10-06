@@ -6,6 +6,7 @@ public class Ativar : MonoBehaviour
    public GameObject Minigame;
    public GameObject Player;
    public Peixe peixeScript;
+   public GameObject BotãoMenu;
 
     void Awake()
     {
@@ -31,6 +32,7 @@ public class Ativar : MonoBehaviour
         {
             Destroy(other.gameObject);
             Time.timeScale = 0;
+            BotãoMenu.SetActive(false);
             Minigame.SetActive(true);
             Player.SetActive(false);
         }

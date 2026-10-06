@@ -10,6 +10,7 @@ public class Peixe : MonoBehaviour
     public static int peixes;
     public GameObject Minigame;
     public GameObject Player;
+    public GameObject BotãoMenu;
     public Transform OrigemPeixe;
     private bool aguardando;
     public TextMeshProUGUI textoAcerto;
@@ -75,6 +76,7 @@ public class Peixe : MonoBehaviour
         Time.timeScale = 1;
         Minigame.SetActive(false);
         Player.SetActive(true);
+        BotãoMenu.SetActive(true);
         aguardando = false;
         ResetPeixe();
     }
