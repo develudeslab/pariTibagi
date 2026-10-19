@@ -1,0 +1,1993 @@
+fileFormatVersion: 2
+guid: 5d9e1589ad49e714eb2bcb44ab50abbd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7758650821151421118
+    second: "tileset com anima\xE7\xE3o d agua_0"
+  - first:
+      213: -8379930482620084270
+    second: "tileset com anima\xE7\xE3o d agua_1"
+  - first:
+      213: -6227810412820196421
+    second: "tileset com anima\xE7\xE3o d agua_2"
+  - first:
+      213: 7284448450833909270
+    second: "tileset com anima\xE7\xE3o d agua_3"
+  - first:
+      213: 2773491500859955550
+    second: "tileset com anima\xE7\xE3o d agua_4"
+  - first:
+      213: 7594920698622743301
+    second: "tileset com anima\xE7\xE3o d agua_5"
+  - first:
+      213: 1626905833407583425
+    second: "tileset com anima\xE7\xE3o d agua_6"
+  - first:
+      213: -7281330437254416507
+    second: "tileset com anima\xE7\xE3o d agua_7"
+  - first:
+      213: -1799727849293262343
+    second: "tileset com anima\xE7\xE3o d agua_8"
+  - first:
+      213: 1615659532778125710
+    second: "tileset com anima\xE7\xE3o d agua_9"
+  - first:
+      213: -4042664810377829548
+    second: "tileset com anima\xE7\xE3o d agua_10"
+  - first:
+      213: -7447864667350019395
+    second: "tileset com anima\xE7\xE3o d agua_11"
+  - first:
+      213: 1536860798229987108
+    second: "tileset com anima\xE7\xE3o d agua_12"
+  - first:
+      213: 5088738724784585940
+    second: "tileset com anima\xE7\xE3o d agua_13"
+  - first:
+      213: -7570985029737587925
+    second: "tileset com anima\xE7\xE3o d agua_14"
+  - first:
+      213: 669337296192428020
+    second: "tileset com anima\xE7\xE3o d agua_15"
+  - first:
+      213: -286427178904257491
+    second: "tileset com anima\xE7\xE3o d agua_16"
+  - first:
+      213: 6715520477719915551
+    second: "tileset com anima\xE7\xE3o d agua_17"
+  - first:
+      213: 9026661250408254980
+    second: "tileset com anima\xE7\xE3o d agua_18"
+  - first:
+      213: 7150593727066874504
+    second: "tileset com anima\xE7\xE3o d agua_19"
+  - first:
+      213: -2072918569638028041
+    second: "tileset com anima\xE7\xE3o d agua_20"
+  - first:
+      213: 5994166860555148273
+    second: "tileset com anima\xE7\xE3o d agua_21"
+  - first:
+      213: -7496654899881799577
+    second: "tileset com anima\xE7\xE3o d agua_22"
+  - first:
+      213: -55103881754048308
+    second: "tileset com anima\xE7\xE3o d agua_23"
+  - first:
+      213: -6656403044719614453
+    second: "tileset com anima\xE7\xE3o d agua_24"
+  - first:
+      213: -2185713121497396700
+    second: "tileset com anima\xE7\xE3o d agua_25"
+  - first:
+      213: 537003260356557857
+    second: "tileset com anima\xE7\xE3o d agua_26"
+  - first:
+      213: -3179953108719386513
+    second: "tileset com anima\xE7\xE3o d agua_27"
+  - first:
+      213: -3293085060885642836
+    second: "tileset com anima\xE7\xE3o d agua_28"
+  - first:
+      213: 4193153240433365815
+    second: "tileset com anima\xE7\xE3o d agua_29"
+  - first:
+      213: 2398720193652052041
+    second: "tileset com anima\xE7\xE3o d agua_30"
+  - first:
+      213: -2965843059556730689
+    second: "tileset com anima\xE7\xE3o d agua_31"
+  - first:
+      213: 7589695888661034787
+    second: "tileset com anima\xE7\xE3o d agua_32"
+  - first:
+      213: 2201371745566942507
+    second: "tileset com anima\xE7\xE3o d agua_33"
+  - first:
+      213: -3372085761980940999
+    second: "tileset com anima\xE7\xE3o d agua_34"
+  - first:
+      213: -2606799198951143797
+    second: "tileset com anima\xE7\xE3o d agua_35"
+  - first:
+      213: 8710894129651221346
+    second: "tileset com anima\xE7\xE3o d agua_36"
+  - first:
+      213: 4176484432552403247
+    second: "tileset com anima\xE7\xE3o d agua_37"
+  - first:
+      213: 1920996917219432479
+    second: "tileset com anima\xE7\xE3o d agua_38"
+  - first:
+      213: -4929707837539098109
+    second: "tileset com anima\xE7\xE3o d agua_39"
+  - first:
+      213: 5783247802174540588
+    second: "tileset com anima\xE7\xE3o d agua_40"
+  - first:
+      213: 6497321337044237956
+    second: "tileset com anima\xE7\xE3o d agua_41"
+  - first:
+      213: 387015672849308549
+    second: "tileset com anima\xE7\xE3o d agua_42"
+  - first:
+      213: -5624473562639995379
+    second: "tileset com anima\xE7\xE3o d agua_43"
+  - first:
+      213: -3372835919876085362
+    second: "tileset com anima\xE7\xE3o d agua_44"
+  - first:
+      213: 9213354062023546858
+    second: "tileset com anima\xE7\xE3o d agua_45"
+  - first:
+      213: -3543528432113158877
+    second: "tileset com anima\xE7\xE3o d agua_46"
+  - first:
+      213: -7358003458851525081
+    second: "tileset com anima\xE7\xE3o d agua_47"
+  - first:
+      213: -5212435362829008349
+    second: "tileset com anima\xE7\xE3o d agua_48"
+  - first:
+      213: -6681679131611632689
+    second: "tileset com anima\xE7\xE3o d agua_49"
+  - first:
+      213: 4779873894859566614
+    second: "tileset com anima\xE7\xE3o d agua_50"
+  - first:
+      213: -6739916936244388259
+    second: "tileset com anima\xE7\xE3o d agua_51"
+  - first:
+      213: -4343831740595861917
+    second: "tileset com anima\xE7\xE3o d agua_52"
+  - first:
+      213: -319740983152030942
+    second: "tileset com anima\xE7\xE3o d agua_53"
+  - first:
+      213: -6906667920153438883
+    second: "tileset com anima\xE7\xE3o d agua_54"
+  - first:
+      213: 2038833512839838155
+    second: "tileset com anima\xE7\xE3o d agua_55"
+  - first:
+      213: -745704138736225242
+    second: "tileset com anima\xE7\xE3o d agua_56"
+  - first:
+      213: -3833350692621451578
+    second: "tileset com anima\xE7\xE3o d agua_57"
+  - first:
+      213: 5259213212906660199
+    second: "tileset com anima\xE7\xE3o d agua_58"
+  - first:
+      213: -3416432287994972728
+    second: "tileset com anima\xE7\xE3o d agua_59"
+  - first:
+      213: 333074642212075595
+    second: "tileset com anima\xE7\xE3o d agua_60"
+  - first:
+      213: -4203354839007125769
+    second: "tileset com anima\xE7\xE3o d agua_61"
+  - first:
+      213: 6345883778614973766
+    second: "tileset com anima\xE7\xE3o d agua_62"
+  - first:
+      213: -5225703860427072836
+    second: "tileset com anima\xE7\xE3o d agua_63"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2f50390d34cab60800000000000000
+      internalID: 7758650821151421118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_1"
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df46f4ff9184bb80800000000000000
+      internalID: -8379930482620084270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_2"
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb39f570d6f5299a0800000000000000
+      internalID: -6227810412820196421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_3"
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6168998754f871560800000000000000
+      internalID: 7284448450833909270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_4"
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59925053db6d7620800000000000000
+      internalID: 2773491500859955550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_5"
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5039ba2c224966960800000000000000
+      internalID: 7594920698622743301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_6"
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4154b5c3ee39610800000000000000
+      internalID: 1626905833407583425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_7"
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587f533ab8483fa90800000000000000
+      internalID: -7281330437254416507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_8"
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f15f727e051607e0800000000000000
+      internalID: -1799727849293262343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_9"
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89b631f8c9fb6610800000000000000
+      internalID: 1615659532778125710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_10"
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453257f16c195e7c0800000000000000
+      internalID: -4042664810377829548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_11"
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db25b67ab8ed3a890800000000000000
+      internalID: -7447864667350019395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_12"
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fb8bbd0c6045510800000000000000
+      internalID: 1536860798229987108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_13"
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc3f8da8e4de9640800000000000000
+      internalID: 5088738724784585940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_14"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2bd0be6a357ee690800000000000000
+      internalID: -7570985029737587925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_15"
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 132
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7587e79b6f94900800000000000000
+      internalID: 669337296192428020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_16"
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 132
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2cf4639ff7660cf0800000000000000
+      internalID: -286427178904257491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_17"
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 132
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c6b5c4b42523d50800000000000000
+      internalID: 6715520477719915551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_18"
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 132
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e0e5af494254d70800000000000000
+      internalID: 9026661250408254980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_19"
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 132
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88225fafb130c3360800000000000000
+      internalID: 7150593727066874504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_20"
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 132
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc1a603b838b33e0800000000000000
+      internalID: -2072918569638028041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_21"
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 132
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbdecf400f8f2350800000000000000
+      internalID: 5994166860555148273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_22"
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 132
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7609ad8661886f790800000000000000
+      internalID: -7496654899881799577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_23"
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 132
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc80e4ebf4b3c3ff0800000000000000
+      internalID: -55103881754048308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_24"
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 132
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06a8ada2b4bf93a0800000000000000
+      internalID: -6656403044719614453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_25"
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 132
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42acc341f79caa1e0800000000000000
+      internalID: -2185713121497396700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_26"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c77c0ce91d37700800000000000000
+      internalID: 537003260356557857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_27"
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60c168ee798ed3d0800000000000000
+      internalID: -3179953108719386513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_28"
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca104caa59c9c42d0800000000000000
+      internalID: -3293085060885642836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_29"
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7331fc8e7a2113a30800000000000000
+      internalID: 4193153240433365815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_30"
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940df22ae47f94120800000000000000
+      internalID: 2398720193652052041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_31"
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb83097737537d6d0800000000000000
+      internalID: -2965843059556730689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_32"
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32732e4e234045960800000000000000
+      internalID: 7589695888661034787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_33"
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25691170f7dc8e10800000000000000
+      internalID: 2201371745566942507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_34"
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d39f49dd1f331d0800000000000000
+      internalID: -3372085761980940999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_35"
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b868eb1a0f9c2dbd0800000000000000
+      internalID: -2606799198951143797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_36"
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26385e10f0053e870800000000000000
+      internalID: 8710894129651221346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_37"
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f212c34a67ad5f930800000000000000
+      internalID: 4176484432552403247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_38"
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f181c71b480c8aa10800000000000000
+      internalID: 1920996917219432479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_39"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302e50927d8269bb0800000000000000
+      internalID: -4929707837539098109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_40"
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 66
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b0ca03c39324050800000000000000
+      internalID: 5783247802174540588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_41"
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 66
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e761ee45f1b2a50800000000000000
+      internalID: 6497321337044237956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_42"
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 66
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b11b634b4fe5500800000000000000
+      internalID: 387015672849308549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_43"
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 66
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e6442381bd1f1b0800000000000000
+      internalID: -5624473562639995379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_44"
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 66
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89ab16d9974131d0800000000000000
+      internalID: -3372835919876085362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_45"
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 66
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7d0d874b86cdf70800000000000000
+      internalID: 9213354062023546858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_46"
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 66
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325f5685aabd2dec0800000000000000
+      internalID: -3543528432113158877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_47"
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 66
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e2f0ba6de13e990800000000000000
+      internalID: -7358003458851525081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_48"
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 66
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32284e777a5b9a7b0800000000000000
+      internalID: -5212435362829008349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_49"
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 66
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbe5291b38e543a0800000000000000
+      internalID: -6681679131611632689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_50"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e64468bf5855240800000000000000
+      internalID: 4779873894859566614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_51"
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e938f81410772a0800000000000000
+      internalID: -6739916936244388259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_52"
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36687b9eb0c97b3c0800000000000000
+      internalID: -4343831740595861917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_53"
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bc617154d009bf0800000000000000
+      internalID: -319740983152030942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_54"
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d551ba5ae169620a0800000000000000
+      internalID: -6906667920153438883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_55"
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9faf817446b4c10800000000000000
+      internalID: 2038833512839838155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_56"
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624b617690ab6a5f0800000000000000
+      internalID: -745704138736225242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_57"
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cefcc2ead33dcac0800000000000000
+      internalID: -3833350692621451578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_58"
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761a7597d8a7cf840800000000000000
+      internalID: 5259213212906660199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_59"
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c572e26fe46690d0800000000000000
+      internalID: -3416432287994972728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_60"
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48bdb45f915f9400800000000000000
+      internalID: 333074642212075595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_61"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe9f045b0faaa5c0800000000000000
+      internalID: -4203354839007125769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_62"
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645524abcab111850800000000000000
+      internalID: 6345883778614973766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_63"
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba5bd1a6029a77b0800000000000000
+      internalID: -5225703860427072836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_64"
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab52d5bd1c6c7f4598b73f9cf35ecab
+      internalID: -1600479357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_65"
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00942c9bc0d980342b81d551469d92ef
+      internalID: 355350578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_66"
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07b44bea2bc8884696826a7858432f4
+      internalID: 1771351231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_67"
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12eb6fe98fee25489f2b9d8e0c890b3
+      internalID: 214739718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_68"
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1cece9aecc1ef4ca45f167bbc43721
+      internalID: -630589749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_69"
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7c3e1a93345f044ac5dee370448f41
+      internalID: -1078648651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_70"
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b919d7aa69912fd45b1df218be52585e
+      internalID: -385742869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset com anima\xE7\xE3o d agua_71"
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969ce7f938a24af4faf3a914b363a820
+      internalID: 2087179398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 13797ef25e893a947ab97a160fe5c502
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":1.0,"y":1.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      "tileset com anima\xE7\xE3o d agua_0": 7758650821151421118
+      "tileset com anima\xE7\xE3o d agua_1": -8379930482620084270
+      "tileset com anima\xE7\xE3o d agua_10": -4042664810377829548
+      "tileset com anima\xE7\xE3o d agua_11": -7447864667350019395
+      "tileset com anima\xE7\xE3o d agua_12": 1536860798229987108
+      "tileset com anima\xE7\xE3o d agua_13": 5088738724784585940
+      "tileset com anima\xE7\xE3o d agua_14": -7570985029737587925
+      "tileset com anima\xE7\xE3o d agua_15": 669337296192428020
+      "tileset com anima\xE7\xE3o d agua_16": -286427178904257491
+      "tileset com anima\xE7\xE3o d agua_17": 6715520477719915551
+      "tileset com anima\xE7\xE3o d agua_18": 9026661250408254980
+      "tileset com anima\xE7\xE3o d agua_19": 7150593727066874504
+      "tileset com anima\xE7\xE3o d agua_2": -6227810412820196421
+      "tileset com anima\xE7\xE3o d agua_20": -2072918569638028041
+      "tileset com anima\xE7\xE3o d agua_21": 5994166860555148273
+      "tileset com anima\xE7\xE3o d agua_22": -7496654899881799577
+      "tileset com anima\xE7\xE3o d agua_23": -55103881754048308
+      "tileset com anima\xE7\xE3o d agua_24": -6656403044719614453
+      "tileset com anima\xE7\xE3o d agua_25": -2185713121497396700
+      "tileset com anima\xE7\xE3o d agua_26": 537003260356557857
+      "tileset com anima\xE7\xE3o d agua_27": -3179953108719386513
+      "tileset com anima\xE7\xE3o d agua_28": -3293085060885642836
+      "tileset com anima\xE7\xE3o d agua_29": 4193153240433365815
+      "tileset com anima\xE7\xE3o d agua_3": 7284448450833909270
+      "tileset com anima\xE7\xE3o d agua_30": 2398720193652052041
+      "tileset com anima\xE7\xE3o d agua_31": -2965843059556730689
+      "tileset com anima\xE7\xE3o d agua_32": 7589695888661034787
+      "tileset com anima\xE7\xE3o d agua_33": 2201371745566942507
+      "tileset com anima\xE7\xE3o d agua_34": -3372085761980940999
+      "tileset com anima\xE7\xE3o d agua_35": -2606799198951143797
+      "tileset com anima\xE7\xE3o d agua_36": 8710894129651221346
+      "tileset com anima\xE7\xE3o d agua_37": 4176484432552403247
+      "tileset com anima\xE7\xE3o d agua_38": 1920996917219432479
+      "tileset com anima\xE7\xE3o d agua_39": -4929707837539098109
+      "tileset com anima\xE7\xE3o d agua_4": 2773491500859955550
+      "tileset com anima\xE7\xE3o d agua_40": 5783247802174540588
+      "tileset com anima\xE7\xE3o d agua_41": 6497321337044237956
+      "tileset com anima\xE7\xE3o d agua_42": 387015672849308549
+      "tileset com anima\xE7\xE3o d agua_43": -5624473562639995379
+      "tileset com anima\xE7\xE3o d agua_44": -3372835919876085362
+      "tileset com anima\xE7\xE3o d agua_45": 9213354062023546858
+      "tileset com anima\xE7\xE3o d agua_46": -3543528432113158877
+      "tileset com anima\xE7\xE3o d agua_47": -7358003458851525081
+      "tileset com anima\xE7\xE3o d agua_48": -5212435362829008349
+      "tileset com anima\xE7\xE3o d agua_49": -6681679131611632689
+      "tileset com anima\xE7\xE3o d agua_5": 7594920698622743301
+      "tileset com anima\xE7\xE3o d agua_50": 4779873894859566614
+      "tileset com anima\xE7\xE3o d agua_51": -6739916936244388259
+      "tileset com anima\xE7\xE3o d agua_52": -4343831740595861917
+      "tileset com anima\xE7\xE3o d agua_53": -319740983152030942
+      "tileset com anima\xE7\xE3o d agua_54": -6906667920153438883
+      "tileset com anima\xE7\xE3o d agua_55": 2038833512839838155
+      "tileset com anima\xE7\xE3o d agua_56": -745704138736225242
+      "tileset com anima\xE7\xE3o d agua_57": -3833350692621451578
+      "tileset com anima\xE7\xE3o d agua_58": 5259213212906660199
+      "tileset com anima\xE7\xE3o d agua_59": -3416432287994972728
+      "tileset com anima\xE7\xE3o d agua_6": 1626905833407583425
+      "tileset com anima\xE7\xE3o d agua_60": 333074642212075595
+      "tileset com anima\xE7\xE3o d agua_61": -4203354839007125769
+      "tileset com anima\xE7\xE3o d agua_62": 6345883778614973766
+      "tileset com anima\xE7\xE3o d agua_63": -5225703860427072836
+      "tileset com anima\xE7\xE3o d agua_64": -1600479357
+      "tileset com anima\xE7\xE3o d agua_65": 355350578
+      "tileset com anima\xE7\xE3o d agua_66": 1771351231
+      "tileset com anima\xE7\xE3o d agua_67": 214739718
+      "tileset com anima\xE7\xE3o d agua_68": -630589749
+      "tileset com anima\xE7\xE3o d agua_69": -1078648651
+      "tileset com anima\xE7\xE3o d agua_7": -7281330437254416507
+      "tileset com anima\xE7\xE3o d agua_70": -385742869
+      "tileset com anima\xE7\xE3o d agua_71": 2087179398
+      "tileset com anima\xE7\xE3o d agua_8": -1799727849293262343
+      "tileset com anima\xE7\xE3o d agua_9": 1615659532778125710
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
