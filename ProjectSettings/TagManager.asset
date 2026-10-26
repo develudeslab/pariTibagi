@@ -12,6 +12,7 @@ TagManager:
   - Rio
   - area
   - Mao
+  - Local
   layers:
   - Default
   - TransparentFX
