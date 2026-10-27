@@ -13,6 +13,6 @@ public class Parimontado : MonoBehaviour
    IEnumerator esperar()
     {
         yield return new WaitForSeconds(9f);
-        SceneManager.LoadScene("Fase 2");
+        SceneManager.LoadScene("Fase3");
     }
 }

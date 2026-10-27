@@ -11,7 +11,7 @@ public class SelecionarPersonagem : MonoBehaviour, IPointerClickHandler
             personagens.SalvarSelecao();
 
         Debug.Log("Objeto Clicado: " + gameObject.name);
-        SceneManager.LoadScene("Fase 1 Rio");
+        SceneManager.LoadScene("Fase1");
     }
 
     public void ReceberItem(string itemSelecionado)
