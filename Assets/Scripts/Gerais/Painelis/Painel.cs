@@ -15,6 +15,6 @@ public class Painel : MonoBehaviour
     {
         Time.timeScale = 1;
         painel.SetActive(false);
-        UI.Play();
+        //UI.Play();
     }
 }
