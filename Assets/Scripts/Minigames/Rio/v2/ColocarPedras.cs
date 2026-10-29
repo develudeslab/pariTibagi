@@ -48,33 +48,8 @@ public class ColocarPedras : MonoBehaviour
                 return;
             }
             ObjetosParaAtivar[i].SetActive(true);
-            IgnorarColisaoComObjeto(other, ObjetosParaAtivar[i]);
             pegarPedras.CarregandoPedra = false;
             return;
-        }
-    }
-
-    void IgnorarColisaoComObjeto(Collider2D local, GameObject objetoAtivado)
-    {
-        Collider2D[] colisoresPlayer = pegarPedras.GetComponentsInChildren<Collider2D>();
-        Collider2D[] colisoresObjeto = objetoAtivado.GetComponentsInChildren<Collider2D>();
-
-        foreach (Collider2D colisorPlayer in colisoresPlayer)
-        {
-            if (colisorPlayer == null || !colisorPlayer.enabled)
-            {
-                continue;
-            }
-
-            Physics2D.IgnoreCollision(colisorPlayer, local);
-
-            foreach (Collider2D colisorObjeto in colisoresObjeto)
-            {
-                if (colisorObjeto != null && colisorObjeto.enabled)
-                {
-                    Physics2D.IgnoreCollision(colisorPlayer, colisorObjeto);
-                }
-            }
         }
     }
 
