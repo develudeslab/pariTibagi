@@ -29,7 +29,7 @@ public class PegarTaquara : MonoBehaviour
         AtualizarUI();
         if (taquara >= 10)
         {
-            SceneManager.LoadScene("MontarPari");
+            SceneManager.LoadScene("Fase3");
         }
     }
     void AtualizarUI() {
