@@ -13,7 +13,7 @@ public class Pari : MonoBehaviour
             if(VidaDoPari <= 0)
             {
                 Destroy(gameObject);
-                SceneManager.LoadScene("Fase1");
+                SceneManager.LoadScene("Fase2");
             }
         }
     }
