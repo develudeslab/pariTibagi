@@ -5998,7 +5998,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7241822971654181331, guid: 0d1e5b2afda31324b8fe69e376bbfd52, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 167
+      value: 111.4
       objectReference: {fileID: 0}
     - target: {fileID: 7241822971654181331, guid: 0d1e5b2afda31324b8fe69e376bbfd52, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -6043,6 +6043,7 @@ GameObject:
   - component: {fileID: 1303388471}
   - component: {fileID: 1303388470}
   - component: {fileID: 1303388473}
+  - component: {fileID: 1303388474}
   m_Layer: 0
   m_Name: Square
   m_TagString: Rio
@@ -6267,6 +6268,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1303388474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303388469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97c7992a945f5fa418235d273465a2f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FisicaPausada
 --- !u!1 &1426157703
 GameObject:
   m_ObjectHideFlags: 0

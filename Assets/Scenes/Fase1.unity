@@ -11211,6 +11211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button
       objectReference: {fileID: 0}
+    - target: {fileID: 5649355127115907369, guid: 0d1e5b2afda31324b8fe69e376bbfd52, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6369261755985460848, guid: 0d1e5b2afda31324b8fe69e376bbfd52, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -11277,11 +11281,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7241822971654181331, guid: 0d1e5b2afda31324b8fe69e376bbfd52, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 182.2
+      value: 134.1
       objectReference: {fileID: 0}
     - target: {fileID: 7241822971654181331, guid: 0d1e5b2afda31324b8fe69e376bbfd52, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 264.82
+      value: 254.3
       objectReference: {fileID: 0}
     - target: {fileID: 7241822971654181331, guid: 0d1e5b2afda31324b8fe69e376bbfd52, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
