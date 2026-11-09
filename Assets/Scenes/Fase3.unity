@@ -7636,6 +7636,7 @@ GameObject:
   - component: {fileID: 1609757892}
   - component: {fileID: 1609757900}
   - component: {fileID: 1609757901}
+  - component: {fileID: 1609757902}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -7887,6 +7888,18 @@ MonoBehaviour:
   - {fileID: 2029808714}
   NomeCena: MontarPari
   TempoAntesDeTrocarCena: 2
+--- !u!114 &1609757902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609757891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97c7992a945f5fa418235d273465a2f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FisicaPausada
 --- !u!1 &1648438455
 GameObject:
   m_ObjectHideFlags: 0
