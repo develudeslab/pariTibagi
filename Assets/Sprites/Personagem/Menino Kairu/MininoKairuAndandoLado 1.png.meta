@@ -138,12 +138,12 @@ TextureImporter:
       name: MininoKairuAndandoLado_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 6
         y: 1
         width: 18
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -160,12 +160,12 @@ TextureImporter:
       name: MininoKairuAndandoLado_1
       rect:
         serializedVersion: 2
-        x: 40
+        x: 38
         y: 1
         width: 18
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -182,12 +182,12 @@ TextureImporter:
       name: MininoKairuAndandoLado_2
       rect:
         serializedVersion: 2
-        x: 72
+        x: 70
         y: 1
         width: 18
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: MininoKairuAndandoLado_3
       rect:
         serializedVersion: 2
-        x: 104
+        x: 102
         y: 1
         width: 18
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b2f39751cd0bca546a1340b40c17ebb4
     internalID: 0
     vertices: []
     indices: 
