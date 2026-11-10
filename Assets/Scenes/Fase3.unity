@@ -136,6 +136,10 @@ PrefabInstance:
       value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 57164123982706489, guid: 1f9f70111f359cb439c28b11d27f5bd6, type: 3}
+      propertyPath: m_Tiles.Array.data[0].first.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 57164123982706489, guid: 1f9f70111f359cb439c28b11d27f5bd6, type: 3}
       propertyPath: m_Tiles.Array.data[0].first.y
       value: -6
       objectReference: {fileID: 0}
@@ -612,6 +616,14 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 57164123982706489, guid: 1f9f70111f359cb439c28b11d27f5bd6, type: 3}
+      propertyPath: m_Tiles.Array.data[60].first.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 57164123982706489, guid: 1f9f70111f359cb439c28b11d27f5bd6, type: 3}
+      propertyPath: m_Tiles.Array.data[60].first.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 57164123982706489, guid: 1f9f70111f359cb439c28b11d27f5bd6, type: 3}
       propertyPath: m_TileAssetArray.Array.data[1].m_RefCount
       value: 60
       objectReference: {fileID: 0}
@@ -787,6 +799,10 @@ PrefabInstance:
       propertyPath: m_Tiles.Array.data[59].second.m_TileObjectToInstantiateIndex
       value: 65535
       objectReference: {fileID: 0}
+    - target: {fileID: 147717227264334315, guid: 1f9f70111f359cb439c28b11d27f5bd6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 873232889014811423, guid: 1f9f70111f359cb439c28b11d27f5bd6, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -850,6 +866,10 @@ PrefabInstance:
     - target: {fileID: 2721773971152087108, guid: 1f9f70111f359cb439c28b11d27f5bd6, type: 3}
       propertyPath: m_Tiles.Array.size
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2721773971152087108, guid: 1f9f70111f359cb439c28b11d27f5bd6, type: 3}
+      propertyPath: m_Tiles.Array.data[0].first.x
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 2721773971152087108, guid: 1f9f70111f359cb439c28b11d27f5bd6, type: 3}
       propertyPath: m_Tiles.Array.data[0].first.y
@@ -1304,6 +1324,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2721773971152087108, guid: 1f9f70111f359cb439c28b11d27f5bd6, type: 3}
+      propertyPath: m_Tiles.Array.data[57].first.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2721773971152087108, guid: 1f9f70111f359cb439c28b11d27f5bd6, type: 3}
       propertyPath: m_Tiles.Array.data[57].first.y
       value: 5
       objectReference: {fileID: 0}
@@ -1321,6 +1345,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2721773971152087108, guid: 1f9f70111f359cb439c28b11d27f5bd6, type: 3}
       propertyPath: m_Tiles.Array.data[59].first.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2721773971152087108, guid: 1f9f70111f359cb439c28b11d27f5bd6, type: 3}
+      propertyPath: m_Tiles.Array.data[60].first.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2721773971152087108, guid: 1f9f70111f359cb439c28b11d27f5bd6, type: 3}
+      propertyPath: m_Tiles.Array.data[60].first.y
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2721773971152087108, guid: 1f9f70111f359cb439c28b11d27f5bd6, type: 3}
@@ -7817,9 +7849,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: -1499651249
+  m_SortingLayer: 2
+  m_SortingOrder: 6
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1105926997745925459, guid: 9d163239a6310824aa94bde3cad0aef8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7955,7 +7987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Painel2
   painel: {fileID: 712481300}
-  UI: {fileID: 0}
+  UI: {fileID: 319803161}
 --- !u!114 &1648438458
 MonoBehaviour:
   m_ObjectHideFlags: 0
