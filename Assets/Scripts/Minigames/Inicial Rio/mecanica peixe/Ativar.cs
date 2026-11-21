@@ -6,7 +6,8 @@ public class Ativar : MonoBehaviour
    public GameObject Minigame;
    public GameObject Player;
    public Peixe peixeScript;
-   public GameObject BotãoMenu;
+   public GameObject BotaoMenu;
+   private bool carregandoProximaFase;
 
     void Awake()
     {
@@ -15,14 +16,16 @@ public class Ativar : MonoBehaviour
     
     void Update()
     {
-        if (Peixe.peixes > 5)
+        if (!carregandoProximaFase && Peixe.peixes >= 3)
         {
+            carregandoProximaFase = true;
             SceneManager.LoadScene("Fase2");
         }
     }
 
     void Start()
     {
+        Peixe.peixes = 0;
         Minigame.SetActive(false);  
     }
 
@@ -32,7 +35,7 @@ public class Ativar : MonoBehaviour
         {
             Destroy(other.gameObject);
             Time.timeScale = 0;
-            BotãoMenu.SetActive(false);
+            BotaoMenu.SetActive(false);
             Minigame.SetActive(true);
             Player.SetActive(false);
         }

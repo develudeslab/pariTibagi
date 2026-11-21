@@ -2688,7 +2688,7 @@ MonoBehaviour:
   Minigame: {fileID: 47649912}
   Player: {fileID: 798377065}
   peixeScript: {fileID: 0}
-  "Bot\xE3oMenu": {fileID: 2145352659}
+  BotaoMenu: {fileID: 2145352659}
 --- !u!114 &798377075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10636,6 +10636,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6036118470123942170, guid: 0d1e5b2afda31324b8fe69e376bbfd52, type: 3}
+      propertyPath: m_text
+      value: 'M
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 6369261755985460848, guid: 0d1e5b2afda31324b8fe69e376bbfd52, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -10666,11 +10672,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7241822971654181331, guid: 0d1e5b2afda31324b8fe69e376bbfd52, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 49.5
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7241822971654181331, guid: 0d1e5b2afda31324b8fe69e376bbfd52, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 48.9
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7241822971654181331, guid: 0d1e5b2afda31324b8fe69e376bbfd52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10702,11 +10708,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7241822971654181331, guid: 0d1e5b2afda31324b8fe69e376bbfd52, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 134.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7241822971654181331, guid: 0d1e5b2afda31324b8fe69e376bbfd52, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 254.3
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 7241822971654181331, guid: 0d1e5b2afda31324b8fe69e376bbfd52, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
