@@ -3,6 +3,11 @@ using UnityEngine;
 [RequireComponent(typeof(PlayerAnimation))]
 public class NpcMover : MonoBehaviour
 {
+    [Header("Destinos específicos")]
+    [SerializeField] public Transform[] destinos;
+    [Range(0f, 1f)]
+    [SerializeField] private float chanceDeIrParaDestino = 0.5f;
+
     [Header("Velocidade de movimento")]
     [SerializeField] private float velocidade = 1.5f;
 
@@ -60,6 +65,23 @@ public class NpcMover : MonoBehaviour
 
     private void EscolherDestino()
     {
+        if (destinos != null && destinos.Length > 0 &&
+            Random.value < chanceDeIrParaDestino)
+        {
+            Transform destinoEscolhido = destinos[Random.Range(0, destinos.Length)];
+
+            if (destinoEscolhido != null)
+            {
+                destino = destinoEscolhido.position;
+                tempoRestante = Random.Range(tempoMinimoAndando, tempoMaximoAndando);
+                estaAndando = true;
+
+                Vector3 direcaoDestino = destino - transform.position;
+                animacao.Animacao(new Vector2(direcaoDestino.x, direcaoDestino.y));
+                return;
+            }
+        }
+
         Vector3 eixo = Random.value < 0.5f ? Vector3.right : Vector3.up;
         float sentido = Random.value < 0.5f ? -1f : 1f;
         float distancia = Random.Range(0.5f, distanciaMaxima);

@@ -20340,6 +20340,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4068fc6fba7153b438a60ba6bf74f720, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NpcMover
+  destinos: []
+  chanceDeIrParaDestino: 0.5
   velocidade: 2
   distanciaMaxima: 4
   tempoMinimoAndando: 2
@@ -23587,9 +23589,10 @@ GameObject:
   - component: {fileID: 1225742969}
   - component: {fileID: 1225742970}
   - component: {fileID: 1225742971}
-  m_Layer: 0
+  - component: {fileID: 1225742972}
+  m_Layer: 3
   m_Name: Menina Kairu
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23707,6 +23710,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4068fc6fba7153b438a60ba6bf74f720, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NpcMover
+  destinos:
+  - {fileID: 507809959}
+  - {fileID: 1501085665}
+  - {fileID: 431855167}
+  - {fileID: 34626897}
+  - {fileID: 488273747}
+  - {fileID: 956239703}
+  - {fileID: 2023515458}
+  - {fileID: 892687390}
+  - {fileID: 1765379893}
+  - {fileID: 1309787731}
+  chanceDeIrParaDestino: 0.5
   velocidade: 2
   distanciaMaxima: 4
   tempoMinimoAndando: 2
@@ -23793,6 +23808,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9074224771211194ab234e05e4f7b7e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAnimation
+--- !u!114 &1225742972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225742963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067e30bb68e2a6a45ad02f9f2ab6352b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PegarTaquara
+  taquara: 0
+  corte: {fileID: 1618959901}
+  taquas: {fileID: 319726988}
+  textoTaquara: {fileID: 873077448}
 --- !u!1 &1309787730
 GameObject:
   m_ObjectHideFlags: 0

@@ -1941,7 +1941,7 @@ MonoBehaviour:
   OrigemPeixe: {fileID: 1311040982}
   textoAcerto: {fileID: 1743631981}
   textoErro: {fileID: 1350898651}
-  Textpeixe: {fileID: 0}
+  Textpeixe: {fileID: 2119321447}
 --- !u!212 &253441986
 SpriteRenderer:
   serializedVersion: 2
@@ -2158,8 +2158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 8.499992, y: -272.09998}
-  m_SizeDelta: {x: -313.40002, y: -545.8}
+  m_AnchoredPosition: {x: 4.205017, y: -272.09998}
+  m_SizeDelta: {x: -304.80994, y: -545.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &310533355
 MonoBehaviour:
