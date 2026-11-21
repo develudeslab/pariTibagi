@@ -10,11 +10,12 @@ public class Peixe : MonoBehaviour
     public static int peixes;
     public GameObject Minigame;
     public GameObject Player;
-    public GameObject BotãoMenu;
+    public GameObject BotaoMenu;
     public Transform OrigemPeixe;
     private bool aguardando;
     public TextMeshProUGUI textoAcerto;
     public TextMeshProUGUI textoErro;
+    public TextMeshProUGUI Textpeixe;
 
     void Start()
     {
@@ -30,6 +31,7 @@ public class Peixe : MonoBehaviour
 
     void Update()
     {
+        AtualizarUI();
         if (aguardando)
             return;
 
@@ -69,6 +71,14 @@ public class Peixe : MonoBehaviour
         textoErro.gameObject.SetActive(false);
     }
 
+    public void AtualizarUI()
+    {
+        if (Textpeixe != null)
+        {
+            Textpeixe.text = peixes.ToString();
+        }
+    }
+
     IEnumerator Esperar()
     {
         yield return new WaitForSecondsRealtime(2f);
@@ -76,7 +86,7 @@ public class Peixe : MonoBehaviour
         Time.timeScale = 1;
         Minigame.SetActive(false);
         Player.SetActive(true);
-        BotãoMenu.SetActive(true);
+        BotaoMenu.SetActive(true);
         aguardando = false;
         ResetPeixe();
     }

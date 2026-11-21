@@ -287,10 +287,11 @@ MonoBehaviour:
   limiteY: -5
   Minigame: {fileID: 0}
   Player: {fileID: 0}
-  "Bot\xE3oMenu": {fileID: 0}
+  BotaoMenu: {fileID: 0}
   OrigemPeixe: {fileID: 0}
   textoAcerto: {fileID: 0}
   textoErro: {fileID: 0}
+  Textpeixe: {fileID: 0}
 --- !u!114 &2795248252540570752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -304,4 +305,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Cair
   velocidade: 1
-  Tempo: 5
+  Tempo: 7

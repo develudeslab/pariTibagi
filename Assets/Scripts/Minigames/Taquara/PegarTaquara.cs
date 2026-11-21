@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 using TMPro;
+
 public class PegarTaquara : MonoBehaviour
 {
     public int taquara;
