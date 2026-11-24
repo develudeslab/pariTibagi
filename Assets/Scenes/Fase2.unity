@@ -20341,7 +20341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NpcMover
   destinos: []
-  chanceDeIrParaDestino: 0.5
+  chanceDeIrParaDestino: 0
   velocidade: 2
   distanciaMaxima: 4
   tempoMinimoAndando: 2
@@ -23721,7 +23721,7 @@ MonoBehaviour:
   - {fileID: 892687390}
   - {fileID: 1765379893}
   - {fileID: 1309787731}
-  chanceDeIrParaDestino: 0.5
+  chanceDeIrParaDestino: 0
   velocidade: 2
   distanciaMaxima: 4
   tempoMinimoAndando: 2
