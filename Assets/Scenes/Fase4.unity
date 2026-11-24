@@ -5946,7 +5946,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5649355127115907369, guid: 0d1e5b2afda31324b8fe69e376bbfd52, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6036118470123942170, guid: 0d1e5b2afda31324b8fe69e376bbfd52, type: 3}
+      propertyPath: m_text
+      value: 'M
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 6369261755985460848, guid: 0d1e5b2afda31324b8fe69e376bbfd52, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
