@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class TrocarCena : MonoBehaviour
@@ -6,6 +7,7 @@ public class TrocarCena : MonoBehaviour
 
     public string NomeCena;
     public AudioSource efeito;
+    [SerializeField] Animator Fade;
 
     private void Start()
     {
@@ -17,4 +19,5 @@ public class TrocarCena : MonoBehaviour
         SceneManager.LoadScene(NomeCena);
         efeito.Play();
     }
+
 }
